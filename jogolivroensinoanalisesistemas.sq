@@ -1,0 +1,819 @@
+@title Livraria Resolve
+@set sala = 0
+
+<img src="LUDESLOGO.jpg" width=300/>
+
+# Bem Vindo à Visita à Livraria Resolve
+
+Uma produção do <a href="http://ludes.cos.ufrj.br">Laboratório de Ludologia, Engenharia e Simulação</a> do <a href="http://www.cos.ufrj.br">Programa de Engenharia de Sistemas e Computação</a> da <a href="http://coppe.ufrj.br">COPPE</a>/<a href="http://www.ufrj.br">UFRJ</a>.
+
+Dica: clique restart no canto superior direito para recarregar. Esse software usa o cache do browser para guardar o estado.
+
+## O que é esse site-jogo?
+
+Nesse livro-jogo eletrônico você é um analista de sistemas que vai elicitar requisitos na [[Livraria Resolve]](Porta de Entrada). 
+
+Basicamente você precisa levantar os dados necessários para propor um sistema para a Livraria Resolve. Nas conversas você vai descobrir qual o sistema e quais funcionalidades ele precisa.
+
+Na versão atual, você vai conseguir levantar toda a informação necessária, no futuro isso não será verdade, vai depender da sua interação e também das suas perguntas.
+
+Elicitar requisitos é investigar. Não deixe de ler nada. Às vezes é necessário voltar o texto com a barra de rolamento para fazer outra pergunta.
+
+Para conhecer a Livraria Resolve, você tem que ir até [[ela]](Porta de Entrada).
+
+## Cuidado com as "pegadinhas"
+
+Nessa história, foram feitas adaptações de um problema "exato" para um problema mais parecido ao mundo real:
+
+1. A descrição a seguir tenta manter um nível ainda inicial, mas mostrar alguns problemas típicos da elicitação de requisitos:
+1.	Nem todo entrevistado diz tudo o que faz na primeira pergunta.
+2.	Alguns casos de uso ficam “escondidos” em uma palavra ou sentença que parece ter pouca importância.
+3.	Termos diferentes são usados por entrevistados para significar a mesma coisa.
+4.	Alguns entrevistados falam de uma parte (ou de alguns objetos) de um caso de uso que outro entrevistado não falou.
+5.	Usuário de mais alto nível na empresa muitas vezes não citam partes importantes do processo.
+6.	Algumas coisas que a empresa não quer que aconteça, acontecem.
+
+
+## Atenção
+
+Algumas vezes, devido ao software usado, você pode ter que voltar para a entrada de uma sala, rolando a tela, para poder continuar a jogar.
+
+(Feito com  Squiffy 5.1.1 Build 5.1.3)
+
+## Criação
+
+### Autor
+
+Geraldo Xexéo
+
+### Inspirado em problema original criado ou modificado por
+
+* Blaschek
+* Vera Werneck
+
+### Agradecimentos pelos testes
+
+- Débora
+- Luis Felipe
+
+[[Porta de Entrada]]:
+@clear
+# Porta de Entrada
+
+Você *finalmente* conseguiu passar pelo engarrafamento matinal e chegar a Livraria Resolve. 
+
+O logo na porta deixa claro que você chegou no lugar certo.
+
+<img src="Logo.png"/>
+
+Antes de bater na porta, você pega seu celular e verifica suas anotações sobre com quem deve se encontrar:
+
+<table>
+<tr><td>Cliente</td><td> Livraria Resolve</td></tr>
+<tr><td>Proprietário  </td><td> Arnaldo Américo</td></tr>
+<tr><td>Gerente Geral </td><td> Bruna Belítro</td></tr>
+<tr><td>Gerente de TI </td><td> Carlos Castelo</td></tr>
+<tr><td>Pedido</td><td> web site de atendimento a clientes </td></tr>
+</table>
+  
+Na porta, que parece muito resistente, tem uma placa com o nome da livraria.
+
+[Você toca a campainha] ou [você bate na porta](Você bate na porta).
+
+[Você bate na porta]:
+
+Você bate na porta, mas ela é muito grossa. Não parece que ninguém ouviu nada.
+
+O que você acha de [tocar a campainha](Você toca a campainha)?
+
+[Você toca a campainha]:
+
+A campainha toca uma música conhecida, mas você não sabe qual. Depois de uns quinze segundos uma moça de uns 25 anos, com um sorriso simpático e uniforme profissional, abre a porta e pergunta:
+
+* Em que posso ajudar?
+
+[[Você explica que é o analista de sistemas que veio começar o serviço do novo sistema]](Recepcao).
+
+[[Porta2]]:
+
+# Porta de Entrada
+
+Nossa!
+
+Você está assustado com seu primeiro trabalho. 
+
+É melhor tomar um ar, respirar fundo, criar coragem e [tocar a campainha de novo].
+
+[tocar a campainha de novo]:
+
+A campainha toca a mesma música conhecida. Rapidamente a Débora Dina abre a porta de novo.
+
+* Você voltou? O que houve?
+
+Você explica que precisou tomar um ar, pois é seu primeiro trabalho sozinho.
+
+Ela diz:
+
+* Não se assuste, aqui dentro basta ser educado que todos são simpáticos.
+
+[[Melhor entrar de novo.]](Recepcao).
+
+[[Recepcao]]:
+
+# Recepção
+
+A moça diz:
+
+{if not seen Porta2:
+* Bom dia, entre por favor. Eu sou a **Débora Dina**, a recepcionista, você tem várias reuniões marcadas aqui, hoje. Entre por favor e sente, vou anunciá-lo.
+}{else:
+* Bem, é melhor você tomar um copo de água - diz Débora oferecendo um copo com água e duas pedras de gelo.
+
+Você agradece, bebe a água devagar e se sente mais calmo.
+
+Ela diz:
+* Dessa vez não vai fugir. Espere um pouco.
+}
+
+
+
+
+
+[Você senta no sofá], [senta na poltrona] ou [olha ao seu redor].
+
+[senta na poltrona]:
+
+Você pensa em se sentar na poltrona, mas ela não parece confortável. É moderna e cheia de pontas. Melhor sentar em outro lugar, como no [sofá](Você senta no sofá), ou simplemente ficar em pé e olhar ao [redor](olha ao seu redor).
+
+[olha ao seu redor]:
+
+Você vê um [sofá](Você senta no sofá), uma [poltrona](senta na poltrona) e a Débora Dina. Em cada parede há um cartaz, enquadrado, com a propaganda de um livro. Você percebe que já leu um deles e gostou muito. Há uma {if not seen Porta2: [a porta principal]}{else: a porta principal}, de madeira e muito grossa, e uma [porta menor], que parece dar para dentro da empresa. Débora está falando no telefone com alguém.
+
+[a porta principal]:
+
+Você fica assustado com o serviço, não sabe se vai dar conta, e sai correndo pela [[Porta de Entrada]](Porta2).
+
+[porta menor]:
+
+Você se dirige a porta menor, mas Débora se coloca a sua frente e diz:
+
+* Você deve esperar um pouco, é mais confortável esperar no [sofá](Você senta no sofá), por favor, a poltrona é mais um enfeite. 
+
+[Você senta no sofá]:
+
+Depois de cinco minutos, Débora pede para você seguir pela porta e ir para a última porta do [[corredor]], marcada como sala de reuniões. Quando estiver pronto para sair, volte a recepção, é o único caminho.
+
+[[corredor]]:
+
+# Corredor
+
+Você está no corredor. A direita você vê: 
+* a {if seen sala de reuniões:[sala de reuniões](sala2)}{else: [[sala de reuniões]]};
+{if not seen sala de reuniões:
+* sala de TI;
+* sala dos vendedores, e
+* sala da gerência.}
+{else:
+* a {if seen sala da gerência:[sala da gerência](sala4)}{else: [[sala da gerência]]};
+* a {if seen sala dos vendedores:[sala dos vendedores](sala5)}{else: [[sala dos vendedores]], e}.
+* a {if seen sala de TI:[sala de TI](sala3)}{else: [[sala de TI]]}.
+}
+
+{if @salas=4:Bem, parece que seu trabalho está feito. Volte para a [[recepção]](saida)}
+
+
+[@last]:
+
+Bem, parece que seu trabalho está feito. Volte para a [[recepção]](saida)
+
+[sala2]:
+
+# Sala de Reuniões, de novo
+
+A sala de reuniões ficou vazia, para que o Sr. Arnaldo Américo saiu pela outra porta. 
+
+Volte para o [[corredor]].
+
+
+[sala3]:
+
+# Sala de TI, de novo
+
+O Carlos parece muito ocupado agora, está com a cabeça enfiada atrás do rack e mexendo em muitos fios. Melhor não atrapalhar.
+
+Volte para o [[corredor]].
+
+[sala4]:
+
+# Sala de Gerência, de novo
+
+Armando e Bruna estão conversando em cima de papéis e usando calculadoras. Não parece a hora de interromper, eles estão muito concentrados.
+
+Volte para o [[corredor]].
+
+[sala5]:
+
+# Sala dos vendedores, de novo
+
+Eles estão novamente no telefone. Não dá para interromper de novo.
+
+Volte para o [[corredor]].
+
+
+
+
+[[sala de reuniões]]:
+@inc salas
+# Sala de Reuniões
+
+* Bem vindo, você chegou! Estava esperando ansioso. Serão grandes mudanças.
+
+Quem fala é um senhor calvo, de uns 50 anos, óculos redondos grossos, de terno cinza e gravata clara. Quase o estereótipo de um livreiro. 
+
+* Eu sou **Arnaldo Américo**, proprietário da Livraria Resolve. Espero que você possa nos ajudar com nosso problema. A gente precisa de alguém que resolva!
+
+Ele parece feliz com o trocadilho, você tenta fingir um sorriso.
+
+Você: [olha] ao redor, [cumprimenta] o Sr. Arnaldo, ou se [senta] na mesa de reunião?
+
+[olha]:
+
+A sala é ampla, contém uma mesa de reuniões com 12 lugares e boa iluminação, um quadro branco em uma parede, uma tela de projeção em outra. Há uma aparedeira com água e café. Papéis e lápis estão sobre a mesa. Há uma outra porta com a placa *privativo do diretor*. Parece que você não pode passar por ela.
+
+Vendo a sala, você [cumprimenta] o Sr. Arnaldo, ou se [senta] na mesa de reunião?
+
+[senta]:
+
+
+{if seen cumprimenta: Você se senta na mesa de reunião e o Sr Arnaldo Américo senta na posição oposta a sua}{else: Você se senta na mesa sem falar nada. O Sr. Arnaldo Américo faz uma cara esquisita, mas senta na posição oposta a sua.}
+
+Você acha que está na hora de começar a fazer [[perguntas]](pergunta){if not seen cumprimenta:, ou você [cumprimenta] o Sr. Arnaldo?}{else:.}
+ 
+
+[cumprimenta]:
+
+{if seen senta: O Sr. Arnaldo Américo faz uma cara de aliviado}
+
+Você diz:
+- Olá, eu sou o analista responsável pelo seu novo sistema. É um prazer está aqui. 
+
+Você trocam trocam um aperto de mãos.
+
+{if seen senta: Você pensa novamente em começar as [[perguntas]](pergunta).}
+
+{if not seen senta: o Sr. Arnaldo Américo o convida para [sentar](senta).}
+
+
+[[pergunta]]:
+
+# A Reunião com Arnaldo Américo, proprietário
+
+O Sr. Arnaldo Américo parece perceber sua hesitação e começa a falar:
+
+- Por onde podemos [começar]? A empresa está crescendo e é hora de informatizar. Já reservei um dinheiro para esse projeto e outros mais.
+
+[começar]:
+
+{if not começou:
+Você explica:
+
+* Bem, eu tenho algumas perguntas para o senhor e para todos na empresa. 
+}
+
+Você decide, sobre o que quer saber? 
+
+1. Qual seu [problema]?
+1. O que pode me falar sobre a [empresa]?
+1. Como os pedidos são [atendidos](atendimento)?
+1. Quem mais eu posso [entrevistar]?
+
+[@last]:
+
+Se quiser, pode perguntar [mais alguma coisa](começar), se não é melhor [[se despedir]](fimdono).
+
+
+[problema]:
+@set começou
+
+Nossa empresa precisa mudar. Não dá para continuar como está. Tudo é muito atrasado. Meu filho acha que eu sou velho, mas eu sei que temos que ter atendimento via internet.
+
+Eu quero que você escute todos e faça um software que apoio o pessoal de vendas para vender por internet. Depois fazemos o resto.
+
+Mas lembre sempre que nós somos uma empresa com pouco estoque, negociamos com livros muito caros e quase sempre raros.
+
+Eu quero vender esses livros raros via internet.
+
+Creio que meu filho ficaria surpreso se me ouvisse falar!
+
+1. O que pode me falar sobre a [empresa]?
+1. Como os pedidos são [atendidos](atendimento)?
+1. Quem mais eu posso [entrevistar]?
+
+
+[empresa]:
+@set começou
+
+O Sr. Arnaldo parece feliz em falar de sua empresa:
+
+* Eu que fundei essa livraria, 40 anos atrás. A Livraria Resolve atua no mercado de venda de livros de arte e livros raros, de colecionadores, sob encomenda. 
+
+Ele continua...
+
+* Nossa atuação não prevê a manutenção de livros em estoque. Todos os livros solicitados por seus clientes são, semanalmente, encomendados às editoras, distribuidoras, outras livrarias e outros vendedores em geral. Nós somos uma espécie de empresa de corretagem, que facilita a vida de colecionadores.
+
+* Você quer saber mais como a livraria [funciona]?
+
+[funciona]:
+@set começou
+
+Você pede para ele continuar:
+
+* O cliente pode pedir qualquer livro, mas nós não trabalhamos com livros comuns. Nosso mercado é restrito e de alto valor agregado. Trabalhamos com livros do mundo todo e temos contatos em todos os lugares. Até no Nepal. A partir do pedido do cliente, a gente investiga se o livro pode ser encontrado e trazido para o Brasil.
+
+* Para usar os serviços da livraria, os clientes devem se cadastrar previamente. O pedido de cadastro é aprovado por mim ou por meu filho, Armando Américo.
+
+[Ele parece animado contando a história da empresa...](clientes)
+
+[clientes]:
+
+O dono da empresa continua a falar, realmente sem dar chance para interrupções:
+
+* Os clientes enviam seus pedidos pelo correio eletrônico, telefone ou fax, ainda temos um fax! O pedido é aceito se o cliente estiver previamente cadastrado. Caso contrário, o pedido é rejeitado com um aviso ao solicitante para se cadastrar. Isso é importante, pois nós normalmente pagamos os livros antes de receber por eles e são livros caros. Nas sextas-feiras, a livraria emite requisições de livros para os fornecedores, com base nos pedidos recebidos.
+Quando os livros são entregues pelo fornecedor, a livraria confere a nota de entrega da editora com a requisição, devolvendo as que contiverem erros.
+
+Você pode perguntar ainda:
+
+1. Qual seu [problema]?
+1. Como os pedidos são [atendidos](atendimento)?
+1. Quem mais eu posso [entrevistar]?
+
+[atendimento]:
+@set começou
+
+O Sr. Arnaldo explica:
+
+* Os pedidos dos clientes são atendidos imediatamente quando completos, isto é, quando todos os livros pedidos foram enviados pelos fornecedores (ou forem cancelados). O atendimento, que é a entrega pelo correio, consiste na emissão de uma nota fiscal, de um boleto de pagamento, que são enviados junto com o livro. Cópias da nota fiscal e do boleto são enviadas a tesouraria. 
+
+Você então pergunta:
+
+* Como um livro pode ser [cancelado]?
+
+[cancelado]:
+
+E o Sr. Arnaldo responde:
+
+* Se depois de 30 dias da data de entrega o fornecedor não enviou um livro requisitado, a livraria cancela o pedido junto ao fornecedor e elimina o livro do pedido do cliente. É enviado um aviso ao cliente desse fato, junto com o restante do pedido, se existir, ou isoladamente pelo correio. Nós também avisamos ao fornecedor que não queremos mais o livro.
+
+Você ainda pode perguntar:
+
+1. Qual seu [problema]?
+1. O que pode me falar sobre a [empresa]?
+1. Quem mais eu posso [entrevistar]?
+
+
+[entrevistar]:
+@set começou
+
+O Sr. Arnaldo parece pensar e fala:
+
+* Somos poucos, mas trabalhamos muito aqui - diz o Sr. Arnaldo com orgulho - Você ainda pode entrevistar:
+
+  1. Meu filho, Armando Américo, que é o diretor.
+  1. Minha grande amiga de infância, Bruna Berílio, que é gerente geral.
+  2. O vendedor, Felipe Franciscano, que fica na sala de vendas.
+  3. Outra vendedora, há muito tempo na empresa, Gabriela Gambra. 
+  5. O gerente de TI, programador e faz-tudo de informática, Carlos Castelo.
+
+
+
+Você vê que ainda dá tempo de outra pergunta:
+
+1. Qual seu [problema]?
+1. O que pode me falar sobre a [empresa]?
+1. Como os pedidos são [atendidos](atendimento)?
+
+[[fimdono]]:
+
+Você fica bastante satisfeito com as informações que tem até agora e agradece ao dono da empresa. 
+
+Ele responde:
+
+Acho que você já pode entrevistar as outras pessoas. Até logo. Ele se vira para sair, mas não resiste e diz para você:
+{if not seen cumprimenta: É melhor você se apresentar para os outros, é muito esquisito falar com alguém que não se conhece.}{else: Você é uma pessoa simpática, eles vão gostar de você.}
+
+
+Parece que você já investigou tudo. Levantou ótimas informações.
+
+Você se despede educadamente e segue para o [[corredor]]?
+
+
+[[sala de TI]]:
+@inc salas
+# Sala de TI
+
+    @set humor = 0
+
+Você chega na Sala de TI e vê um homem agitado tentando colocar um computador em um rack, mas meio sem jeito. Ele pede sua ajuda com um olhar. Com certeza é o **Carlos Castelo**.
+
+Você [ajuda], levantando o rack um pouco para entrar na posição, ou você [finge] que não.
+
+[ajuda]:
+
+{if seen finge: agora não adianta mais... Castelo parece de mau humor}
+{else:
+Você dá uma pequena ajuda para Carlos Castelo, ajudando a encaixar o computador. Ele fica muito feliz e se apresenta:
+
+- Olá, sou o Carlos, você foi de muita ajuda, não estava conseguindo acertar, em que posso te ajudar como agradecimento?
+
+    @inc humor
+}
+
+Você se [apresenta] ou já diz logo o que [quer]?
+
+
+[finge]:
+{if seen ajuda: sua ajuda foi bem-vinda, não precisa mais fingir.}
+{else:
+
+Ele consegue colocar o computador no lugar com muito esforço.
+O homem parace mal humorado.
+
+- Olá, sou o Sr. Castelo. O que você está fazendo aqui?
+}
+
+    @dec humor 
+
+Você se [apresenta] ou diz o que [quer]?
+
+[apresenta]:
+
+@inc humor 
+
+Você se apresenta, diz que é responsável pela análise do novo sistema de informação da empresa, e precisa saber se há alguma demanda que ele pode [explicar].
+
+[quer]:
+
+
+{if not seen apresenta: Você diz que quer algumas [explicações](explicar) e ele dá um suspiro
+@dec humor
+}
+
+
+[explicar]:
+
+{if humor=2:Carlos Castelo está muito bem humorado}
+{if humor=1:Carlos Castelo está bem  humorado}
+{if humor=0:Carlos Castelo está com cara de cansado}
+{if humor=-1:Carlos Castelo está mal humorado}
+{if humor=-2:Carlos Castelo está muito mal humorado}
+
+* Vamos lá, o que você quer saber - ele diz.
+
+Você explica que está interessado em [como deve funcionar o sistema](recomendacoes), e quais são os softwares que deve usar.
+
+
+[recomendacoes]:
+Você deve se lembrar que essa empresa é antiga e tradicional.
+
+Tanto os donos e os funcionários, quanto muitos dos clientes, têm pouco hábito de usar computadores. O sistema deve ser muito simples de ser usado. Não pode ser confuso ou ter muitas opçoes para os clientes. Basicamente é só fazer e acompanhar pedido para eles.
+
+Outra coisa importante é que já instalamos um sistema gerenciador de banco de dados, o MySQL, por causa do sistema de ERP que instalamos. O sistema tem que usar esse SGDB.
+
+Tudo deve ser feito também para Web, porém em sites responsivos que funcionem em celulares. Por incrível que pareça, os mais velhos adotaram mais o celular que computadores. Não queremos nenhuma necessidade de instalar ou baixar algum software para o computador das pessoas.
+
+{if humor=2: Você pode escolher a linguagem de programação que for melhor para sua equipe}
+{if humor=1: Você pode escolher a linguagem de programação que for melhor para sua equipe, mas nada de PHP, por favor}
+{if humor=0: Antes de escolher uma linguagem de programação, eu devo aprovar}
+{if humor=-1: Você deve fazer tudo em PHP!}
+{if humor=-2: É essencial que o sistema seja todo em Perl.}
+
+Você pensa um pouco e pergunta se acha necessário [pagamento on-line]?
+
+[pagamento on-line]:
+
+Carlos pensa um pouco, não parece ser uma pergunta fácil. 
+
+* Não sei muito bem a tecnologia envolvida, mas sei que o ERP que compramos é compatível com esse serviço. Certamente nossos clientes iam gostar de pagar com cartão de crédito ou débito. Mas não sei se seria bom para a empresa, devido as taxas.
+
+Você acha que está tudo resolvido aqui e se [despede].
+
+[despede]:
+
+<hr>
+
+Quando você se despede ele
+{if humor=2: deseja muito boa sorte e diz que está a disposição}
+{if humor=1: dá um aperto de mãos e diz que qualquer coisa é marcar com a Débora}
+{if humor=0: te dá um adeus e volta a trabalhar. }
+{if humor=-1: vira para o lado e vai trabalhar.}
+{if humor=-2: dá um resmungo e te deixa falando sozinho.}
+
+Melhor voltar para o [[corredor]].
+
+<hr>
+
+[[sala da gerência]]:
+@inc salas
+# Sala da Gerência
+
+Nessa sala você ve duas mesas. Lá estão um homem e um mulher, com certeza são **Armando Américo** e **Bruna Berílio**. Bruna já é uma senhora de certa idade, como o dono da empresa, mas Armando Américo é jovem e lembra o pai, bem mais magro e em forma.
+
+Eles olham para você com um olhar inquisitivo e você se apresenta.
+
+Armando fica muito animado com sua presença, já Bruna parece ressabiada, mas ambos o cumprimentam com simpatia. Armando usa uma roupa social e Bruna está também razoavelmente arrumada, mas nem ele está de terno nem ela com roupa equivalente. 
+
+Nas mesa de Armando há um notebook de última geração, ligado em uma planilha eletrônica, na mesa de Bruna, um computador de mesa, já bastante usado, desligado, muito papel e alguns cadernos que, quando abertos, mostram uma grande organização.
+
+Depois de conversar algumas amenidades, fica claro que você pode fazer perguntas para eles, e você já tem ideia de como começar:
+
+* Como são feitas as [coisas aqui](antigas)?
+* Vocês estão fazendo outros [sistemas]?
+[@last]:
+A conversa está interessante, você deve [[continuar]](gerencia 2). Um bom analista sempre percebe que pode obter mais informações. 
+
+
+[antigas]:
+
+Bruna diz:
+
+* Fazemos as coisas do mesmo jeito aqui há muitos anos, mas com a carga de trabalho aumentando, concordo que um sistema de vendas pode ajudar, mas não acho que precisamos mudar tanto.
+
+E Armando comenta:
+
+* A livraria funciona da mesma forma há muitos anos, com tudo feito de forma manual. Porém, com a possibilidade cada vez maior de trabalhar com livros do mundo todo, nosso trabalho aumentou muito. Meu pai é “das antigas”, mas eu o convenci a começar a mudar as coisas, para eu poder tocar melhor o negócio com a Bruna quando papai se aposentar. 
+
+Bruna parece ter problemas com essa opinião:
+
+* Melhor não mexer muito, estamos crescendo e em time que está ganhando não se mexe. É só resovler uns probleminhas aqui e ali.
+
+Você pode perguntar:
+
+* Vocês estão fazendo outros [sistemas]?
+
+
+[sistemas]:
+
+Bruna olha para umas anotações que parece ter feito antes e fala:
+
+* O importante é que se leve em conta que estamos comprando outros sistemas de informação não específicos para a Livraria ABC no mercado. Por exemplo, teremos um sistema de contas a pagar e a receber que deverá receber as informações do sistema que vocês vão fazer. Isso é realmente melhor que meus cadernos, pois não preciso fazer mais as contas.
+
+Ela olha para [Armando](necessidades).
+
+[necessidades]:
+
+Armando pensa e diz:
+
+* O que eu mais preciso é melhorar o nosso relacionamento com o cliente. Para isso, a informação que vem do sistema de vendas é essencial. Uma coisa importante, por exemplo, é saber que clientes freqüentes não compram mais na freqüência que compravam. 
+
+Você pergunta se eles tem [alguma idéia](oportunidade 1),
+
+[oportunidade 1]:
+
+Bruna diz:
+
+* Outro é classificar os clientes de acordo com o tipo de livro que gostam, para podermos fazer ofertas de livros novos. No fundo, conhecer os principais clientes é nosso principal segredo.
+
+Logo depois, Armando parece querer falar. Você pergunta [o que ele pensa](internet)?
+
+[internet]:
+
+Tenho pensado muito em como um sistema pode nos ajudar. Até mesmo pensei se não seria interessante vender livros pela Internet, o que vocês acham disso? Seria uma grande novidade para nós e nossos clientes. Acho que comentei com meu pai, mas ele nunca presta atenção em tecnologia. 
+
+Você concorda e pergunta se há algum [problema] que deva estar ciente.
+
+
+[problema]:
+
+Bruna diz:
+
+Hum... não sei se gostei da ideia de vender pela Internet. Mas um site seria ótimo. 
+
+Outra coisa importante é que, com os problemas de entrega, acabamos com um pequeno estoque de livros que compramos, mas os clientes não compraram da gente. Então eu quero fazer algo com isso. Uma mala direta de promoção, por exemplo. Acho que nossos clientes iam gostar de receber pequenos catálogos com livros de qualidade.
+
+
+Você pode perguntar:
+* Como são feitas as [coisas aqui](antigas)?
+
+
+[[gerencia 2]]:
+
+Você pensa um pouco e vê que tem mais perguntas:
+
+* Quantas [pessoas] trabalham aqui?
+* Que [informações](gerencia) gerencial vocês precisam?
+
+
+[pessoas]:
+
+Bruna diz:
+
+Hoje somos 7. Todo mundo tem seu cargo, mas todo mundo ajuda todo mundo. A Débora Dina e recepcionista e secretária, o Carlos faz tudo de TI sozinho, os vendedores falam com clientes e fornecedores, e nós também vendemos, fazemos tudo. Papai já está velho, mas tem cliente importantes que compram livros raros caríssimos e também trabalha muito.
+
+Armando também parece querer falar algo e você pede que ele [participe](mais pessoas).
+
+[mais pessoas]:
+
+Armando diz:
+
+Primeiro pensei em contratar mais pessoas, porém isso não ia diminuir a confusão de papéis com que estamos lidando e a falta de informações, então resolvi que seria necessário informatizar a empresa para, se necessário, crescer. 
+
+Bruna olha preocupada.
+
+Você pode perguntar:
+* Que [informações](gerencia) gerencial vocês precisam?
+
+[gerencia]:
+
+Armando diz:
+
+A partir dessa operação, também são necessários alguns dados para ajudar a gerenciar melhor a empresa. Dois relatórios são muito importantes para nós: um relatório de vendas em um período e um relatório de gastos por fornecedor. Outro relatório que nos ajudaria muito é o de pedidos não atendidos.
+
+Bruna [interrompe].
+
+[interrompe]:
+
+A gente precisa ter uma agenda de entregas, Tudo que tem que ser entregue e um status dizendo se já foi pedido, já foi recebido, já foi enviado e se já foi pago. Eu faço isso com cadernos, mas são muitos livros agora, acabo tendo que virar de página o tempo todo.
+
+Você pode perguntar:
+* Quantas [pessoas] trabalham aqui?
+
+[@last]:
+<hr>
+
+Bruna diz: nossa, nós falamos muito.
+
+Com o que Armando concorda. Mas ele ainda diz: você precisa ir falar com os vendedores, eles sabem muito do que acontece na empresa e podem ter outras demandas.
+
+{if seen sala dos vendedores: Você diz que já falou com eles e que foi muito importante}
+
+Você se despede, e vai para o [[corredor]].
+
+<hr>
+
+[[sala dos vendedores]]:
+@inc salas
+
+# Sala dos vendedores
+
+Você encontra um casal trabalhando no telefone. Certamente são Felipe Franciscano e Gabriela Gambra.
+
+Ambos estão parecendo bastante ocupados. Felipe está de terno, como o patrão. Gabriela também usa uma roupa um pouco mais formal. 
+
+Você espera na porta [[pacientemente]] ou tenta [interromper]?
+
+[interromper]:
+
+Felipe levanta a mão com um sinal de pare. Claramente ele quer que você [[espere]](pacientemente). Já Gabriela simplesmente vira de costas para você.
+
+Você imagina que isso pode demorar.
+
+[[pacientemente]]:
+
+# Conversando com os vendedores
+
+Depois de algum tempo os dois telefonemas acabam praticamente juntos. Parece até que estavam falando um com o outro, mas claramente não foi isso. 
+
+Felipe diz, {if seen interromper: parecendo irritado com você}{else: com um ar simpático}: 
+
+* Olá o que deseja?
+
+
+
+Você se apresenta e se explica, diz que está procurando informações para fazer um sistema que vai ajudá-los, pede desculpas por atrapalhar o serviço, mas que precisa da opinião deles.
+
+Eles ficam muito satisfeitos e começam a falar ao mesmo tempo. Parece que estão ansiosos por alguma ajuda.
+
+Você:
+* Pede para [Felipe](erros) falar 
+* Pede para [Gabriela](arquivos) falar
+
+
+
+[erros]:
+
+Felipe fala {if seen interromper:, talvez um pouco irritado}{else: animado}:
+
+* Hoje nosso processo, como é todo manual, tem muitos defeitos. Temos muita informação repetida, pois temos que controlar os pedidos dos clientes e as requisições aos fornecedores, que se cruzam. Muitas vezes recebemos um livro e por um problema de anotação não sabemos para qual cliente se destina. Então gastamos um bom tempo procurando, cliente por cliente, quem pediu aquele livro. 
+
+Ele parece querer falar [mais](demanda){if not seen arquivos:, mas você pode escutar [Gabriela](arquivos)}{else: {if not seen reclamacoes:, mas você pode escutar [Gabriela](reclamacoes)}}.
+
+
+[demanda]:
+
+Felipe aproveita para continuar:
+
+* Claramente, a primeira coisa que o sistema deve fazer é suportar o nosso funcionamento diário. Estou falando da operação básica de atendimento aos clientes, não da cobrança ou outras coisas do gênero, pois para essas vou comprar sistemas prontos .
+
+Felipe parece ter acabado{if not seen arquivos:, você se vira para [Gabriela](arquivos)}{else: {if not seen reclamacoes:, você se vira para [Gabriela](reclamacoes)}}.
+
+
+[arquivos]:
+
+Gabriela também tem informações {if seen interromper:, ela parece indecisa sobre você, porém fala}{else: e as fornece prontamente}:
+
+* Mantemos também vários arquivos de clientes, o que facilita em certos casos, mas dificulta em outros. Temos os clientes com pedido em andamento, aqueles com pedidos atendidos, mas não pagos, os freqüentes e os outros clientes, que não se enquadram em nenhuma dessas categorias. E tem a lista dos clientes “expulsos”, pois nos deram calote e ainda tem a cara de pau de pedir outro livro.
+
+Ela parece querer falar [mais](reclamacoes){if not seen erros:, mas você pode escutar [Felipe](erros)}{else: {if not seen demanda:, mas você pode escutar [Felipe](demanda)}}.
+
+[reclamacoes]:
+
+
+Gabriela continua:
+
+* Como estamos sempre manipulando fichas, algumas vezes esquecemos de requisitar a um fornecedor um ou mais livros pedidos pelo cliente. Isso atrasa o atendimento e resulta em reclamações que não são boas para a livraria.
+
+Gabriela parece ter acabado{if not seen erros:, você se vira para [Felipe](erros)}{else: {if not seen demanda:, você se vira para [Felipe](demanda)}}.
+
+
+[@last]:
+Quando eles dão uma respirada e param de falar, você pergunta então [[como funciona o trabalho]] deles.
+
+[[como funciona o trabalho]]:
+
+{if seen interromper:Eles parecem ter esquecido a forma rude como os interrompeu, e ficam animados com seu interesse}{else: Seu interesse os deixa mais animados}:
+
+Gabriela diz que existe um passo a passo muito bem definido. Mas que Felipe pode começar a explicar.
+
+Felipe diz:
+
+* Somos nós que fazemos as vendas mesmo aqui, mas às vezes precisamos de ajuda. 
+
+* Normalmente eu recebo um pedido do cliente com uma lista de livros. 
+
+* Então eu vou nos vários catálogos que possuímos, alguns de editoras, outros de distribuidoras, e procuro os livros desejados. Também procuro na internet, em lojas e leilões.
+
+Felipe [respira] e Gabriela olha com sinal de aprovação.
+
+[respira]:
+
+Felipe continua:
+
+* Faço uma lista com cada livro, onde podemos comprá-los, o prazo de entrega, e o preço de custo e uma estimativa de preço de frete. 
+
+* Algumas vezes tenho que esperar uma cotação que vai chegar for e-mail ou telefone, então eu paro o serviço para começar mais tarde.
+
+* Essa lista eu envio para a Bruna, que define o preço de venda de cada livro. Ela faz isso baseada na experiência dela com os clientes e as necessidades da empresa. 
+
+* Nós compramos os livros em muitas moedas, são livros caros, de arte, ou livros raros e antigos, de colecionador, e a taxa de câmbio também é importante.
+
+Felipe para, fica pensando e Gabriela [passa a falar]:
+
+[passa a falar]:
+
+* Com os preços definidos eu faço uma estimativa do frete para o cliente e preparo uma proposta. Essa proposta é passada para o cliente de várias formas: telefone, e-mail ou, ultimamente, Whatsapp. 
+
+* Geralmente dentro de 24h o cliente confirma a proposta, ou parte dela. Eu então separo os pedidos que serão feitos na sexta-feira. 
+
+* Quem trata dessa parte dos pedidos para os fornecedores é o próprio Sr. Américo ou seu filho. Muitas vezes ele consegue mais um desconto na compra dos livros. Algumas das vezes esse desconto, ou parte dele, é repassado para o cliente.
+
+Gabriela pega um copo de água em sua mesa e [bebe](bebeu) um pouco, pegando fôlego.
+
+[bebeu]:
+
+Gabriela continua:
+
+* Quando chegam todos os livros de um cliente eu começo a trabalhar de novo. 
+
+* Sou eu quem “fecha” a venda. Recalculo o preço de custo e de venda. Passo os casos de possível desconto para a Bruna, que decide na hora. Emito uma fatura, uma nota fiscal, empacoto e preparo para os entregadores (a gente usa a DHL ou a Fedex). Muitas vezes eu telefono, ou mando um e-mail, para avisar o cliente que o pedido está sendo enviado. 
+
+
+Você pergunta:
+
+* Como os clientes [pagam]?
+
+[pagam]:
+
+
+Gabriela não parece gostar desse assunto:
+
+* Hoje pelo boleto. É muito ruim, porque demora uns 3 dias para sabermos que foi pago, e o cliente às vezes esquece de pagar e pede uma segunda via, ou ainda temos que lembrá-los disso, o que é sempre desagradável.
+
+Felipe diz:
+
+* A gente também pensou em usar cartão de crédito ou débito, mas não gostamos das taxas. Teríamos que somá-la ao nosso preço e os clientes também não vão gostar. 
+
+Gabriela revira os olhos, como se essa discussão fosse antiga:
+
+* Os clientes nem iam saber, a gente podia cobrar a taxa de todo mundo e não ia fazer diferença, mas claramente o Sr. Arnaldo não quer fazer isso.
+
+[@last]:
+<hr>
+
+Você está cheio de informações e agora só pensa em registrar tudo.
+
+Precisa se despedir, o que você faz com muita educação. 
+
+Volte ao [[corredor]].
+
+<hr>
+
+[[saida]]:
+
+# Saindo do Recepção para a rua
+
+Você se despede também da Débora e vai embora.
+
+Missão cumprida, agora é fazer uma proposta.
+
+
+
