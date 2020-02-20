@@ -6,11 +6,20 @@
 @clear
 <img src="LUDESLOGO.jpg" width=300/>
 
-# Bem Vindo à Visita à Livraria Resolve
+# Bem Vindo à Visita à Livraria Resolve (Versão 1.2)
 
 Uma produção do <a href="http://ludes.cos.ufrj.br">Laboratório de Ludologia, Engenharia e Simulação</a> do <a href="http://www.cos.ufrj.br">Programa de Engenharia de Sistemas e Computação</a> da <a href="http://coppe.ufrj.br">COPPE</a>/<a href="http://www.ufrj.br">UFRJ</a>.
 
 Dica: clique restart no canto superior direito para recarregar. Esse software usa o cache do browser para guardar o estado.
+
+Você pode:
+
+1. Começar o jogo indo para [[Livraria Resolve]](Porta de Entrada).
+1. Entender mais sobre esse [site].
+1. Saber sobre as [pegadinhas].
+1. Ver os [[Créditos]]
+
+[site]:
 
 ## O que é esse site-jogo?
 
@@ -24,6 +33,8 @@ Elicitar requisitos é investigar. Não deixe de ler nada. Às vezes é necessá
 
 Para conhecer a Livraria Resolve, você tem que ir até [[ela]](Porta de Entrada).
 
+[pegadinhas]:
+
 ## Cuidado com as "pegadinhas"
 
 Nessa história, foram feitas adaptações de um problema "exato" para um problema mais parecido ao mundo real:
@@ -36,12 +47,11 @@ Nessa história, foram feitas adaptações de um problema "exato" para um proble
 5.	Usuário de mais alto nível na empresa muitas vezes não citam partes importantes do processo.
 6.	Algumas coisas que a empresa não quer que aconteça, acontecem.
 
-
 ## Atenção
 
 Algumas vezes, devido ao software usado, você pode ter que voltar para a entrada de uma sala, rolando a tela, para poder continuar a jogar.
 
-Veja os [[Créditos]].
+Veja os [[Créditos]] ou volte para o [[início]](Início).
 
 [[Créditos]]:
 @clear
@@ -245,7 +255,7 @@ Volte para o [[corredor]].
 
 * Bem vindo, você chegou! Estava esperando ansioso. Serão grandes mudanças.
 
-Quem fala é um senhor calvo, de uns 50 anos, óculos redondos grossos, de terno cinza e gravata clara. Quase o estereótipo de um livreiro. 
+Quem fala é um senhor calvo, de uns 70 anos, óculos redondos grossos, de terno cinza e gravata clara. Quase o estereótipo de um livreiro. 
 
 * Eu sou **Arnaldo Américo**, proprietário da Livraria Resolve. Espero que você possa nos ajudar com nosso problema. A gente precisa de alguém que resolva!
 
@@ -332,13 +342,13 @@ Creio que meu filho ficaria surpreso se me ouvisse falar!
 
 O Sr. Arnaldo parece feliz em falar de sua empresa:
 
-* Eu que fundei essa livraria, 40 anos atrás. A Livraria Resolve atua no mercado de venda de livros de arte e livros raros, de colecionadores, sob encomenda. 
+* Eu que fundei essa livraria, 30 anos atrás. A Livraria Resolve atua no mercado de venda de livros de arte e livros raros, de colecionadores, sob encomenda. 
 
 Ele continua...
 
 * Nossa atuação não prevê a manutenção de livros em estoque. Todos os livros solicitados por seus clientes são, semanalmente, encomendados às editoras, distribuidoras, outras livrarias e outros vendedores em geral. Nós somos uma espécie de empresa de corretagem, que facilita a vida de colecionadores.
 
-* Você quer saber mais como a livraria [funciona]?
+* Você quer saber mais [como a livraria funciona](funciona)?
 
 [funciona]:
 @set começou
@@ -373,7 +383,7 @@ O Sr. Arnaldo explica:
 
 Você então pergunta:
 
-* Como um livro pode ser [cancelado]?
+* [Como](cancelado) um livro pode ser cancelado?
 
 [cancelado]:
 
@@ -466,17 +476,17 @@ Você se [apresenta] ou diz o que [quer]?
 
 @inc humor 
 
-Você se apresenta, diz que é responsável pela análise do novo sistema de informação da empresa, e precisa saber se há alguma demanda que ele pode [explicar].
+Você se apresenta, diz que é responsável pela análise do novo sistema de informação da empresa, e precisa saber se há alguma demanda que ele pode [[explicar]].
 
 [quer]:
 
 
-{if not seen apresenta: Você diz que quer algumas [explicações](explicar) e ele dá um suspiro
+{if not seen apresenta: Você diz que quer algumas [[explicações]](explicar) e ele dá um suspiro
 @dec humor
 }
 
 
-[explicar]:
+[[explicar]]:
 
 {if humor=2:Carlos Castelo está muito bem humorado}
 {if humor=1:Carlos Castelo está bem  humorado}
@@ -486,25 +496,78 @@ Você se apresenta, diz que é responsável pela análise do novo sistema de inf
 
 * Vamos lá, o que você quer saber - ele diz.
 
-Você explica que está interessado em [como deve funcionar o sistema](recomendacoes), e quais são os softwares que deve usar.
+Você explica que está interessado em:
+
+1. [Como](recomendacoes) deve funcionar o sistema?
+1. [Onde](onde) ele vai executar?
+1. [Quais] softwares que deve usar.
+
+
+
+
+[onde]:
+
+Castelo começa a contar:
+
+* Nós decidimos terceirizar tudo para a nuvem, é muito caro manter um servidor local para aplicações, o melhor é alugar mesmo. Já basta essas duas máquinas para a nossa aplicação de ERP funcionar.
+
+Ele olha para a própria mão, parece que arranhou ao instalar a máquina, e continua.
+
+* É essencial que tudo seja feita usando software livre e rodando no sistema Linux Ubuntu.
+
+Você ainda pode querer saber:
+
+1. [Como](recomendacoes) deve funcionar o sistema?
+1. [Quais] softwares que deve usar.
 
 
 [recomendacoes]:
-Você deve se lembrar que essa empresa é antiga e tradicional.
 
-Tanto os donos e os funcionários, quanto muitos dos clientes, têm pouco hábito de usar computadores. O sistema deve ser muito simples de ser usado. Não pode ser confuso ou ter muitas opçoes para os clientes. Basicamente é só fazer e acompanhar pedido para eles.
+Abrindo as mãos como quem apresenta a empresa, Carlos diz:
 
-Outra coisa importante é que já instalamos um sistema gerenciador de banco de dados, o MySQL, por causa do sistema de ERP que instalamos. O sistema tem que usar esse SGDB.
+* Você deve se lembrar que essa empresa é antiga e tradicional.
 
-Tudo deve ser feito também para Web, porém em sites responsivos que funcionem em celulares. Por incrível que pareça, os mais velhos adotaram mais o celular que computadores. Não queremos nenhuma necessidade de instalar ou baixar algum software para o computador das pessoas.
+* Tanto os donos e os funcionários, quanto muitos dos clientes, têm pouco hábito de usar computadores. O sistema deve ser muito simples de ser usado. Não pode ser confuso ou ter muitas opçoes para os clientes. Basicamente é só fazer e acompanhar pedido para eles.
 
-{if humor=2: Você pode escolher a linguagem de programação que for melhor para sua equipe}
-{if humor=1: Você pode escolher a linguagem de programação que for melhor para sua equipe, mas nada de PHP, por favor}
-{if humor=0: Antes de escolher uma linguagem de programação, eu devo aprovar}
-{if humor=-1: Você deve fazer tudo em PHP!}
-{if humor=-2: É essencial que o sistema seja todo em Perl.}
+* Tudo deve ser feito também para Web, porém em sites responsivos que funcionem em celulares. Por incrível que pareça, os mais velhos adotaram mais o celular que computadores. Não queremos nenhuma necessidade de instalar ou baixar algum software para o computador das pessoas.
+
+Você ainda pode querer saber:
+
+1. [Onde](onde) ele vai executar?
+1. [Quais] softwares que deve usar.
+
+
+
+[Quais]:
+
+
+{if humor=2: 
+Com uma voz simpática e sorrindo, Carlos diz:
+* Você pode escolher a linguagem de programação que for melhor para sua equipe}
+{if humor=1: 
+Com uma voz simpática, Carlos diz:
+* Você pode escolher a linguagem de programação que for melhor para sua equipe, mas nada de PHP, por favor}
+{if humor=0: 
+Meio sem emoção, Carlos diz:
+* Antes de escolher uma linguagem de programação, eu devo aprovar}
+{if humor=-1: 
+Com uma voz dura, Carlos diz:
+* Você deve fazer tudo em PHP!}
+{if humor=-2: 
+Com uma voz antipática, Carlos diz:
+* É essencial que o sistema seja todo em Perl.}
+
+
+* Já instalamos um sistema gerenciador de banco de dados, o MySQL, por causa do sistema de ERP que instalamos. O sistema tem que usar esse SGDB também, mesmo que seja na rede, pois não quero gerenciar dois sistemas. Esse é obrigatório mesmo.
 
 Você pensa um pouco e pergunta se acha necessário [pagamento on-line]?
+
+Você ainda pode querer saber:
+
+1. [Como](recomendacoes) deve funcionar o sistema?
+1. [Onde](onde) ele vai executar?
+
+
 
 [pagamento on-line]:
 
@@ -512,11 +575,10 @@ Carlos pensa um pouco, não parece ser uma pergunta fácil.
 
 * Não sei muito bem a tecnologia envolvida, mas sei que o ERP que compramos é compatível com esse serviço. Certamente nossos clientes iam gostar de pagar com cartão de crédito ou débito. Mas não sei se seria bom para a empresa, devido as taxas.
 
-Você acha que está tudo resolvido aqui e se [despede].
-
-[despede]:
-
+[@last]:
 <hr>
+
+Você acha que já sabe tudo que precisa e se despede de Carlos:
 
 Quando você se despede ele
 {if humor=2: deseja muito boa sorte e diz que está a disposição}
@@ -543,8 +605,9 @@ Nas mesa de Armando há um notebook de última geração, ligado em uma planilha
 
 Depois de conversar algumas amenidades, fica claro que você pode fazer perguntas para eles, e você já tem ideia de como começar:
 
-* Como são feitas as [coisas aqui](antigas)?
-* Vocês estão fazendo outros [sistemas]?
+* [Como](antigas) são feitas as coisas aqui?
+* [Quais](sistemas) outros sistemas vocês estão fazendo?
+
 [@last]:
 A conversa está interessante, você deve [[continuar]](gerencia 2). Um bom analista sempre percebe que pode obter mais informações. 
 
@@ -565,7 +628,7 @@ Bruna parece ter problemas com essa opinião:
 
 Você pode perguntar:
 
-* Vocês estão fazendo outros [sistemas]?
+* [Quais](sistemas) outros sistemas vocês estão fazendo?
 
 
 [sistemas]:
@@ -609,15 +672,15 @@ Outra coisa importante é que, com os problemas de entrega, acabamos com um pequ
 
 
 Você pode perguntar:
-* Como são feitas as [coisas aqui](antigas)?
+* [Como](antigas) são feitas as coisas aqui?
 
 
 [[gerencia 2]]:
 
 Você pensa um pouco e vê que tem mais perguntas:
 
-* Quantas [pessoas] trabalham aqui?
-* Que [informações](gerencia) gerencial vocês precisam?
+* [Quantas](pessoas) pessoas trabalham aqui?
+* [Quais](gerencia) informações  gerenciais vocês precisam?
 
 
 [pessoas]:
@@ -637,7 +700,7 @@ Primeiro pensei em contratar mais pessoas, porém isso não ia diminuir a confus
 Bruna olha preocupada.
 
 Você pode perguntar:
-* Que [informações](gerencia) gerencial vocês precisam?
+* [Quais](gerencia) informações  gerenciais vocês precisam?
 
 [gerencia]:
 
@@ -652,7 +715,7 @@ Bruna [interrompe].
 A gente precisa ter uma agenda de entregas, Tudo que tem que ser entregue e um status dizendo se já foi pedido, já foi recebido, já foi enviado e se já foi pago. Eu faço isso com cadernos, mas são muitos livros agora, acabo tendo que virar de página o tempo todo.
 
 Você pode perguntar:
-* Quantas [pessoas] trabalham aqui?
+* [Quantas](pessoas) pessoas trabalham aqui?
 
 [@last]:
 <hr>
@@ -701,8 +764,8 @@ Você se apresenta e se explica, diz que está procurando informações para faz
 Eles ficam muito satisfeitos e começam a falar ao mesmo tempo. Parece que estão ansiosos por alguma ajuda.
 
 Você:
-* Pede para [Felipe](erros) falar 
-* Pede para [Gabriela](arquivos) falar
+* [Quais](erros) os seus problemas mais comuns? - pergunta a Felipe 
+* [Quais](arquivos) as informações que vocês tem? - pergunta para Gabriela 
 
 
 
@@ -712,7 +775,7 @@ Felipe fala {if seen interromper:, talvez um pouco irritado}{else: animado}:
 
 * Hoje nosso processo, como é todo manual, tem muitos defeitos. Temos muita informação repetida, pois temos que controlar os pedidos dos clientes e as requisições aos fornecedores, que se cruzam. Muitas vezes recebemos um livro e por um problema de anotação não sabemos para qual cliente se destina. Então gastamos um bom tempo procurando, cliente por cliente, quem pediu aquele livro. 
 
-Ele parece querer falar [mais](demanda){if not seen arquivos:, mas você pode escutar [Gabriela](arquivos)}{else: {if not seen reclamacoes:, mas você pode escutar [Gabriela](reclamacoes)}}.
+Ele parece querer falar [mais](demanda){if not seen arquivos:, mas você pode perguntar "[quais](arquivos) as informações que vocês tem" para Gabriela }{else: {if not seen reclamacoes:, mas você pode escutar [Gabriela](reclamacoes)}}.
 
 
 [demanda]:
@@ -721,7 +784,7 @@ Felipe aproveita para continuar:
 
 * Claramente, a primeira coisa que o sistema deve fazer é suportar o nosso funcionamento diário. Estou falando da operação básica de atendimento aos clientes, não da cobrança ou outras coisas do gênero, pois para essas vou comprar sistemas prontos .
 
-Felipe parece ter acabado{if not seen arquivos:, você se vira para [Gabriela](arquivos)}{else: {if not seen reclamacoes:, você se vira para [Gabriela](reclamacoes)}}.
+Felipe parece ter acabado{if not seen arquivos:, você pergunta "[quais](arquivos) as informações existentes" para Gabriela}{else: {if not seen reclamacoes:, você se vira para [Gabriela](reclamacoes)}}.
 
 
 [arquivos]:
@@ -730,7 +793,7 @@ Gabriela também tem informações {if seen interromper:, ela parece indecisa so
 
 * Mantemos também vários arquivos de clientes, o que facilita em certos casos, mas dificulta em outros. Temos os clientes com pedido em andamento, aqueles com pedidos atendidos, mas não pagos, os freqüentes e os outros clientes, que não se enquadram em nenhuma dessas categorias. E tem a lista dos clientes “expulsos”, pois nos deram calote e ainda tem a cara de pau de pedir outro livro.
 
-Ela parece querer falar [mais](reclamacoes){if not seen erros:, mas você pode escutar [Felipe](erros)}{else: {if not seen demanda:, mas você pode escutar [Felipe](demanda)}}.
+Ela parece querer falar [mais](reclamacoes){if not seen erros:, mas você pode perguntar "[Quais](erros) os seus problemas mais comuns" para Felipe}{else: {if not seen demanda:, mas você pode escutar [Felipe](demanda)}}.
 
 [reclamacoes]:
 
@@ -739,7 +802,7 @@ Gabriela continua:
 
 * Como estamos sempre manipulando fichas, algumas vezes esquecemos de requisitar a um fornecedor um ou mais livros pedidos pelo cliente. Isso atrasa o atendimento e resulta em reclamações que não são boas para a livraria.
 
-Gabriela parece ter acabado{if not seen erros:, você se vira para [Felipe](erros)}{else: {if not seen demanda:, você se vira para [Felipe](demanda)}}.
+Gabriela parece ter acabado{if not seen erros:, mas você pode perguntar "[Quais](erros) os seus problemas mais comuns" para Felipe}{else: {if not seen demanda:, mas você pode escutar [Felipe](demanda)}}.
 
 
 [@last]:
@@ -796,7 +859,7 @@ Gabriela continua:
 
 Você pergunta:
 
-* Como os clientes [pagam]?
+* [Como](pagam) os clientes pagam?
 
 [pagam]:
 
@@ -812,6 +875,10 @@ Felipe diz:
 Gabriela revira os olhos, como se essa discussão fosse antiga:
 
 * Os clientes nem iam saber, a gente podia cobrar a taxa de todo mundo e não ia fazer diferença, mas claramente o Sr. Arnaldo não quer fazer isso.
+
+Felipe diz:
+
+* Nós temos que fazer o cliente pagar antes de nós pagarmos o fornecedor. Em todo caso, hoje a gente só envia o livro após o cliente pagar.
 
 [@last]:
 <hr>
