@@ -6,7 +6,7 @@
 @clear
 <img src="LUDESLOGO.jpg" width=300/>
 
-# Bem Vindo à Visita à Livraria Resolve (Versão 1.2)
+# Bem Vindo à Visita à Livraria Resolve (Versão 1.2.1)
 
 Uma produção do <a href="http://ludes.cos.ufrj.br">Laboratório de Ludologia, Engenharia e Simulação</a> do <a href="http://www.cos.ufrj.br">Programa de Engenharia de Sistemas e Computação</a> da <a href="http://coppe.ufrj.br">COPPE</a>/<a href="http://www.ufrj.br">UFRJ</a>.
 
@@ -379,7 +379,7 @@ Você pode perguntar ainda:
 
 O Sr. Arnaldo explica:
 
-* Os pedidos dos clientes são atendidos imediatamente quando completos, isto é, quando todos os livros pedidos foram enviados pelos fornecedores (ou forem cancelados). O atendimento, que é a entrega pelo correio, consiste na emissão de uma nota fiscal, de um boleto de pagamento, que são enviados junto com o livro. Cópias da nota fiscal e do boleto são enviadas a tesouraria. 
+* Os pedidos dos clientes são atendidos imediatamente quando completos, isto é, quando todos os livros pedidos foram enviados pelos fornecedores (ou forem cancelados). O atendimento, que é a entrega pelo correio, consiste na emissão de um boleto de pagamento, que é pago, e depois de uma nota fiscal, que é enviada então com o livro. Cópias da nota fiscal e do boleto são enviadas ao contador, que é terceirizado. 
 
 Você então pergunta:
 
@@ -442,7 +442,7 @@ Você se despede educadamente e segue para o [[corredor]]?
 
 Você chega na Sala de TI e vê um homem agitado tentando colocar um computador em um rack, mas meio sem jeito. Ele pede sua ajuda com um olhar. Com certeza é o **Carlos Castelo**.
 
-Você [ajuda], levantando o rack um pouco para entrar na posição, ou você [finge] que não.
+Você [ajuda], levantando o rack um pouco para entrar na posição, ou você [finge] que não viu.
 
 [ajuda]:
 
