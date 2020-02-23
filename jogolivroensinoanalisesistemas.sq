@@ -6,7 +6,7 @@
 @clear
 <img src="LUDESLOGO.jpg" width=300/>
 
-# Bem Vindo à Visita à Livraria Resolve (Versão 1.2.1)
+# Bem Vindo à Visita à Livraria Resolve (Versão 1.2.3)
 
 Uma produção do <a href="http://ludes.cos.ufrj.br">Laboratório de Ludologia, Engenharia e Simulação</a> do <a href="http://www.cos.ufrj.br">Programa de Engenharia de Sistemas e Computação</a> da <a href="http://coppe.ufrj.br">COPPE</a>/<a href="http://www.ufrj.br">UFRJ</a>.
 
@@ -324,9 +324,9 @@ Se quiser, pode perguntar [mais alguma coisa](começar), se não é melhor [[se 
 
 Nossa empresa precisa mudar. Não dá para continuar como está. Tudo é muito atrasado. Meu filho acha que eu sou velho, mas eu sei que temos que ter atendimento via internet.
 
-Eu quero que você escute todos e faça um software que apoio o pessoal de vendas para vender por internet. Depois fazemos o resto.
+Eu quero que você escute todos e faça um software que apoio o pessoal de vendas para vender por internet. Depois fazemos o resto. Já estamos perdendo clientes.
 
-Mas lembre sempre que nós somos uma empresa com pouco estoque, negociamos com livros muito caros e quase sempre raros.
+Mas lembre sempre que nós somos uma empresa com pouco estoque, negociamos com livros muito caros e quase sempre raros. 
 
 Eu quero vender esses livros raros via internet.
 
@@ -346,7 +346,7 @@ O Sr. Arnaldo parece feliz em falar de sua empresa:
 
 Ele continua...
 
-* Nossa atuação não prevê a manutenção de livros em estoque. Todos os livros solicitados por seus clientes são, semanalmente, encomendados às editoras, distribuidoras, outras livrarias e outros vendedores em geral. Nós somos uma espécie de empresa de corretagem, que facilita a vida de colecionadores.
+* Nossa atuação não prevê a manutenção de livros em estoque, apesar de alguns acabarem ficando no estoque por problemas na venda. Todos os livros solicitados por nossos clientes são, semanalmente, encomendados às editoras, distribuidoras, outras livrarias e outros vendedores em geral. Nós somos uma espécie de empresa de corretagem, que facilita a vida de colecionadores.
 
 * Você quer saber mais [como a livraria funciona](funciona)?
 
@@ -357,7 +357,11 @@ Você pede para ele continuar:
 
 * O cliente pode pedir qualquer livro, mas nós não trabalhamos com livros comuns. Nosso mercado é restrito e de alto valor agregado. Trabalhamos com livros do mundo todo e temos contatos em todos os lugares. Até no Nepal. A partir do pedido do cliente, a gente investiga se o livro pode ser encontrado e trazido para o Brasil.
 
-* Para usar os serviços da livraria, os clientes devem se cadastrar previamente. O pedido de cadastro é aprovado por mim ou por meu filho, Armando Américo.
+* Um livro raro pode ser uma primeira edição antiga, um livro mesmo moderno mas de tiragem muito pequena, alguns livros de arte, design e arquitetura. Muitos desses livros saíram de catálogo.
+
+* Para usar os serviços da livraria, os clientes devem se cadastrar previamente. O pedido de cadastro é aprovado por mim ou por meu filho, Armando Américo. 
+
+* Temos clientes no mundo todo. O cadastro básico é composto de nome, endereço completo, telefone fixo, telefone celular, telefone profissional, e email.
 
 [Ele parece animado contando a história da empresa...](clientes)
 
@@ -365,8 +369,12 @@ Você pede para ele continuar:
 
 O dono da empresa continua a falar, realmente sem dar chance para interrupções:
 
-* Os clientes enviam seus pedidos pelo correio eletrônico, telefone ou fax, ainda temos um fax! O pedido é aceito se o cliente estiver previamente cadastrado. Caso contrário, o pedido é rejeitado com um aviso ao solicitante para se cadastrar. Isso é importante, pois nós normalmente pagamos os livros antes de receber por eles e são livros caros. Nas sextas-feiras, a livraria emite requisições de livros para os fornecedores, com base nos pedidos recebidos.
-Quando os livros são entregues pelo fornecedor, a livraria confere a nota de entrega da editora com a requisição, devolvendo as que contiverem erros.
+* Os clientes enviam seus pedidos pelo correio eletrônico, telefone ou fax, ainda temos um fax! O pedido é aceito se o cliente estiver previamente cadastrado. Caso contrário, o pedido é rejeitado com um aviso ao solicitante para se cadastrar, o que volta pelo mesmo sistema. 
+
+* Isso é importante, pois nós normalmente pagamos os livros antes de receber por eles e são livros caros. Nas sextas-feiras, a livraria emite requisições de livros para os fornecedores que escolhemos, ou seja, fecha os negócios combinados, com base nos pedidos recebidos e no que encontramos na internet.
+
+* Quando os livros são entregues pelo fornecedor, a livraria confere a nota de entrega da editora com a requisição, devolvendo as que contiverem erros. 
+
 
 Você pode perguntar ainda:
 
@@ -379,7 +387,11 @@ Você pode perguntar ainda:
 
 O Sr. Arnaldo explica:
 
-* Os pedidos dos clientes são atendidos imediatamente quando completos, isto é, quando todos os livros pedidos foram enviados pelos fornecedores (ou forem cancelados). O atendimento, que é a entrega pelo correio, consiste na emissão de um boleto de pagamento, que é pago, e depois de uma nota fiscal, que é enviada então com o livro. Cópias da nota fiscal e do boleto são enviadas ao contador, que é terceirizado. 
+* Os pedidos dos clientes são atendidos imediatamente quando completos, isto é, quando todos os livros pedidos foram enviados pelos fornecedores escolhidos por nós (ou forem cancelados). 
+
+* O atendimento, que é a entrega pelo correio, consiste na emissão de uma instrução  de pagamento, que é pago, e depois de uma nota fiscal, que é enviada então com o livro. Cópias da nota fiscal e do boleto são enviadas ao nosso contador, que é terceirizado. 
+
+* Para os clientes no Brasil, podemos emitir também um boleto bancário. Para clientes no exterior são apenas os dados de nossa conta bancária no Brasil, para onde eles devem fazer um depósito internacional. 
 
 Você então pergunta:
 
@@ -409,7 +421,6 @@ O Sr. Arnaldo parece pensar e fala:
   2. O vendedor, Felipe Franciscano, que fica na sala de vendas.
   3. Outra vendedora, há muito tempo na empresa, Gabriela Gambra. 
   5. O gerente de TI, programador e faz-tudo de informática, Carlos Castelo.
-
 
 
 Você vê que ainda dá tempo de outra pergunta:
@@ -503,8 +514,6 @@ Você explica que está interessado em:
 1. [Quais] softwares que deve usar.
 
 
-
-
 [onde]:
 
 Castelo começa a contar:
@@ -513,7 +522,7 @@ Castelo começa a contar:
 
 Ele olha para a própria mão, parece que arranhou ao instalar a máquina, e continua.
 
-* É essencial que tudo seja feita usando software livre e rodando no sistema Linux Ubuntu.
+* É essencial que tudo seja feito usando software livre e rodando no sistema Linux Ubuntu.
 
 Você ainda pode querer saber:
 
@@ -527,9 +536,9 @@ Abrindo as mãos como quem apresenta a empresa, Carlos diz:
 
 * Você deve se lembrar que essa empresa é antiga e tradicional.
 
-* Tanto os donos e os funcionários, quanto muitos dos clientes, têm pouco hábito de usar computadores. O sistema deve ser muito simples de ser usado. Não pode ser confuso ou ter muitas opçoes para os clientes. Basicamente é só fazer e acompanhar pedido para eles.
+* Tanto os donos e os funcionários, quanto muitos dos clientes, têm pouco hábito de usar computadores. O sistema deve ser muito simples de ser usado. Não pode ser confuso ou ter muitas opçoes para os clientes. Basicamente é só fazer e acompanhar pedido para eles. E talvez melhorar o pagamento.
 
-* Tudo deve ser feito também para Web, porém em sites responsivos que funcionem em celulares. Por incrível que pareça, os mais velhos adotaram mais o celular que computadores. Não queremos nenhuma necessidade de instalar ou baixar algum software para o computador das pessoas.
+* Tudo deve ser feito também para Web, porém em sites responsivos que funcionem em celulares. Por incrível que pareça, os mais velhos adotaram mais o celular que computadores. Não queremos nenhuma necessidade de instalar ou baixar algum software para o computador, ou celular, das pessoas.
 
 Você ainda pode querer saber:
 
@@ -562,18 +571,18 @@ Com uma voz antipática, Carlos diz:
 
 Você pensa um pouco e pergunta se acha necessário [pagamento on-line]?
 
-Você ainda pode querer saber:
-
-1. [Como](recomendacoes) deve funcionar o sistema?
-1. [Onde](onde) ele vai executar?
-
-
 
 [pagamento on-line]:
 
 Carlos pensa um pouco, não parece ser uma pergunta fácil. 
 
-* Não sei muito bem a tecnologia envolvida, mas sei que o ERP que compramos é compatível com esse serviço. Certamente nossos clientes iam gostar de pagar com cartão de crédito ou débito. Mas não sei se seria bom para a empresa, devido as taxas.
+* Não sei muito bem a tecnologia envolvida, mas sei que o ERP que compramos é compatível com esse serviço. Certamente nossos clientes iam gostar de pagar com cartão de crédito ou débito. Mas não sei se seria bom para a empresa, devido as taxas. Mas a forma de pagar de hoje é realmente complicada.
+
+Você ainda pode querer saber:
+
+1. [Como](recomendacoes) deve funcionar o sistema?
+1. [Onde](onde) ele vai executar?
+
 
 [@last]:
 <hr>
@@ -626,6 +635,10 @@ Bruna parece ter problemas com essa opinião:
 
 * Melhor não mexer muito, estamos crescendo e em time que está ganhando não se mexe. É só resovler uns probleminhas aqui e ali.
 
+Armando chama a atenção para si:
+
+* O importante é que o sistema atenda bem a vontade do cliente: encomendar um livro raro, que não é encontrado com facilidade, e que cabe a gente procurar e dar um preço. 
+
 Você pode perguntar:
 
 * [Quais](sistemas) outros sistemas vocês estão fazendo?
@@ -635,7 +648,7 @@ Você pode perguntar:
 
 Bruna olha para umas anotações que parece ter feito antes e fala:
 
-* O importante é que se leve em conta que estamos comprando outros sistemas de informação não específicos para a Livraria ABC no mercado. Por exemplo, teremos um sistema de contas a pagar e a receber que deverá receber as informações do sistema que vocês vão fazer. Isso é realmente melhor que meus cadernos, pois não preciso fazer mais as contas.
+* O importante é que se leve em conta que estamos comprando outros sistemas de informação não específicos para a Livraria ABC no mercado. Por exemplo, já temos um sistema de contas a pagar e a receber sendo implantado que deverá receber as informações do sistema que vocês vão fazer. Isso é realmente melhor que meus cadernos, pois não preciso fazer mais as contas.
 
 Ela olha para [Armando](necessidades).
 
@@ -643,7 +656,7 @@ Ela olha para [Armando](necessidades).
 
 Armando pensa e diz:
 
-* O que eu mais preciso é melhorar o nosso relacionamento com o cliente. Para isso, a informação que vem do sistema de vendas é essencial. Uma coisa importante, por exemplo, é saber que clientes freqüentes não compram mais na freqüência que compravam. 
+* O que eu mais preciso é melhorar o nosso relacionamento com o cliente. Para isso, a informação que vem do sistema de vendas é essencial. Uma coisa importante, por exemplo, é saber que clientes freqüentes não compram mais na freqüência que compravam. Sabendo isso eu posso recuperar um cliente que deixou de nos procurar.
 
 Você pergunta se eles tem [alguma idéia](oportunidade 1),
 
@@ -651,25 +664,37 @@ Você pergunta se eles tem [alguma idéia](oportunidade 1),
 
 Bruna diz:
 
-* Outro é classificar os clientes de acordo com o tipo de livro que gostam, para podermos fazer ofertas de livros novos. No fundo, conhecer os principais clientes é nosso principal segredo.
+* Outro é classificar os clientes de acordo com o tipo de livro que gostam, para podermos fazer ofertas de livros que encontramos, oportunidades que vemos no mercado. No fundo, conhecer os principais clientes é nosso principal segredo. 
 
 Logo depois, Armando parece querer falar. Você pergunta [o que ele pensa](internet)?
 
 [internet]:
 
-Tenho pensado muito em como um sistema pode nos ajudar. Até mesmo pensei se não seria interessante vender livros pela Internet, o que vocês acham disso? Seria uma grande novidade para nós e nossos clientes. Acho que comentei com meu pai, mas ele nunca presta atenção em tecnologia. 
+Armando pensa um pouco e fala:
 
-Você concorda e pergunta se há algum [problema] que deva estar ciente.
+* Tenho pensado muito em como um sistema pode nos ajudar. Até mesmo pensei se não seria interessante vender livros pela Internet, com um site para os clientes fazerem encomendas, o que vocês acham disso? Seria uma grande novidade para nós e nossos clientes. Acho que comentei com meu pai, mas ele nunca presta atenção em tecnologia. 
+
+Bruna diz:
+
+* Hum... não sei se gostei da ideia de vender pela Internet. Mas um site chamando atenção para nosso negócio, com indicativos de como nos contactar, seria ótimo. 
+
+Você anota a sugestão, fingindo não saber a opinião do Sr. Arnaldo, e pergunta se há algum [problema] que deva estar ciente.
 
 
 [problema]:
 
-Bruna diz:
 
-Hum... não sei se gostei da ideia de vender pela Internet. Mas um site seria ótimo. 
+Bruna respira, pensa e se lembra de algo:
 
-Outra coisa importante é que, com os problemas de entrega, acabamos com um pequeno estoque de livros que compramos, mas os clientes não compraram da gente. Então eu quero fazer algo com isso. Uma mala direta de promoção, por exemplo. Acho que nossos clientes iam gostar de receber pequenos catálogos com livros de qualidade.
+* Outra coisa importante é que, com os problemas de entrega, acabamos com um pequeno estoque de livros que compramos, mas os clientes não compraram da gente. Então eu quero fazer algo com isso. Uma mala direta de promoção, por exemplo. Acho que nossos clientes iam gostar de receber pequenos catálogos com livros de qualidade.
 
+Armando faz um pequeno sinal para você, parece que ele não concorda muito:
+
+* Para isso que serve um site de vendas Bruna! Catálogos só dão trabalho de fazer, imprimir e enviar.
+
+Bruna, contrariada, lembra:
+
+* Enviar a gente pode fazer por email. Nosso diferencial, que é o contato com os clientes, será perdido com um site de vendas.
 
 Você pode perguntar:
 * [Como](antigas) são feitas as coisas aqui?
@@ -687,7 +712,7 @@ Você pensa um pouco e vê que tem mais perguntas:
 
 Bruna diz:
 
-Hoje somos 7. Todo mundo tem seu cargo, mas todo mundo ajuda todo mundo. A Débora Dina e recepcionista e secretária, o Carlos faz tudo de TI sozinho, os vendedores falam com clientes e fornecedores, e nós também vendemos, fazemos tudo. Papai já está velho, mas tem cliente importantes que compram livros raros caríssimos e também trabalha muito.
+* Hoje somos 7. Todo mundo tem seu cargo, mas todo mundo ajuda todo mundo. A Débora Dina e recepcionista e secretária, o Carlos faz tudo de TI sozinho, os vendedores falam com clientes e fornecedores, e nós também vendemos, fazemos tudo. Papai já está velho, mas tem cliente importantes que compram livros raros caríssimos e também trabalha muito.
 
 Armando também parece querer falar algo e você pede que ele [participe](mais pessoas).
 
@@ -695,9 +720,11 @@ Armando também parece querer falar algo e você pede que ele [participe](mais p
 
 Armando diz:
 
-Primeiro pensei em contratar mais pessoas, porém isso não ia diminuir a confusão de papéis com que estamos lidando e a falta de informações, então resolvi que seria necessário informatizar a empresa para, se necessário, crescer. 
+* Primeiro pensei em contratar mais pessoas, porém isso não ia diminuir a confusão de papéis com que estamos lidando e a falta de informações, então resolvi que seria necessário informatizar a empresa para, se necessário, crescer. 
 
 Bruna olha preocupada.
+
+* Cada contratação é uma dificuldade. Todas pessoas aqui falam várias línguas e sabem muito de literatura. O Felipe tem um mestrado.
 
 Você pode perguntar:
 * [Quais](gerencia) informações  gerenciais vocês precisam?
@@ -706,13 +733,17 @@ Você pode perguntar:
 
 Armando diz:
 
-A partir dessa operação, também são necessários alguns dados para ajudar a gerenciar melhor a empresa. Dois relatórios são muito importantes para nós: um relatório de vendas em um período e um relatório de gastos por fornecedor. Outro relatório que nos ajudaria muito é o de pedidos não atendidos.
+* A partir dessa operação, também são necessários alguns dados para ajudar a gerenciar melhor a empresa. Dois relatórios são muito importantes para nós: um relatório de vendas em um período e um relatório de gastos por fornecedor. Hoje fazemos tudo na mão. Eu faço ele no Excel, mas tenho que digitar tudo de novo. O de fornecedores a mesma coisa. E preciso dos dois para entender o fechamento do mês.
+
+Armando tosse e fala:
+
+* Outro relatório que nos ajudaria muito é o de pedidos não atendidos. Hoje a Bruna cuida disso, mas precisamos ficar de olho nos livros desejados que não estão no mercado. E também temos que saber todos os livros que já vendemos para cada pessoa, para poder fazer uma oferta se alguém quiser comprar aquele livro.
 
 Bruna [interrompe].
 
 [interrompe]:
 
-A gente precisa ter uma agenda de entregas, Tudo que tem que ser entregue e um status dizendo se já foi pedido, já foi recebido, já foi enviado e se já foi pago. Eu faço isso com cadernos, mas são muitos livros agora, acabo tendo que virar de página o tempo todo.
+* A gente precisa ter uma agenda de entregas, Tudo que tem que ser entregue e um status dizendo se já foi pedido, já foi recebido, já foi enviado e se já foi pago. Eu faço isso com cadernos, mas são muitos livros agora, acabo tendo que virar de página o tempo todo. É a única forma de saber que estamos trabalhando direito. O resto é mais financeiro.
 
 Você pode perguntar:
 * [Quantas](pessoas) pessoas trabalham aqui?
@@ -757,14 +788,19 @@ Felipe diz, {if seen interromper: parecendo irritado com você}{else: com um ar 
 
 * Olá o que deseja?
 
+Você se apresenta e se explica, diz que está procurando informações para fazer um sistema que vai ajudá-los, pede desculpas por atrapalhar o serviço, mas que [[precisa da opinião deles]](entrevista vendedores).
 
 
-Você se apresenta e se explica, diz que está procurando informações para fazer um sistema que vai ajudá-los, pede desculpas por atrapalhar o serviço, mas que precisa da opinião deles.
 
-Eles ficam muito satisfeitos e começam a falar ao mesmo tempo. Parece que estão ansiosos por alguma ajuda.
+[[entrevista vendedores]]:
 
-Você:
-* [Quais](erros) os seus problemas mais comuns? - pergunta a Felipe 
+# Entrevistando os Vendedores
+
+Eles ficam muito satisfeitos e começam a falar ao mesmo tempo. Parece que estão ansiosos por alguma ajuda. 
+
+Você sente que é melhor fazer com que só um fale:
+
+* [Quais](erros) os seus problemas mais comuns? - pergunta para Felipe 
 * [Quais](arquivos) as informações que vocês tem? - pergunta para Gabriela 
 
 
@@ -773,7 +809,7 @@ Você:
 
 Felipe fala {if seen interromper:, talvez um pouco irritado}{else: animado}:
 
-* Hoje nosso processo, como é todo manual, tem muitos defeitos. Temos muita informação repetida, pois temos que controlar os pedidos dos clientes e as requisições aos fornecedores, que se cruzam. Muitas vezes recebemos um livro e por um problema de anotação não sabemos para qual cliente se destina. Então gastamos um bom tempo procurando, cliente por cliente, quem pediu aquele livro. 
+* Hoje nosso processo, como é todo manual, tem muitos defeitos. Temos muita informação repetida, pois temos que controlar os pedidos dos clientes e as requisições aos fornecedores, que se cruzam. Muitas vezes recebemos um livro e por um problema de anotação não sabemos para qual cliente se destina. Então gastamos um bom tempo procurando, cliente por cliente, ficha por ficha, quem pediu aquele livro. 
 
 Ele parece querer falar [mais](demanda){if not seen arquivos:, mas você pode perguntar "[quais](arquivos) as informações que vocês tem" para Gabriela }{else: {if not seen reclamacoes:, mas você pode escutar [Gabriela](reclamacoes)}}.
 
@@ -782,7 +818,7 @@ Ele parece querer falar [mais](demanda){if not seen arquivos:, mas você pode pe
 
 Felipe aproveita para continuar:
 
-* Claramente, a primeira coisa que o sistema deve fazer é suportar o nosso funcionamento diário. Estou falando da operação básica de atendimento aos clientes, não da cobrança ou outras coisas do gênero, pois para essas vou comprar sistemas prontos .
+* Claramente, a primeira coisa que qualquer sistema deve fazer é suportar o nosso funcionamento diário. Estou falando da operação básica de atendimento aos clientes, não da contabilidade ou outras coisas do gênero, pois para essas vou comprar sistemas prontos .
 
 Felipe parece ter acabado{if not seen arquivos:, você pergunta "[quais](arquivos) as informações existentes" para Gabriela}{else: {if not seen reclamacoes:, você se vira para [Gabriela](reclamacoes)}}.
 
@@ -791,7 +827,9 @@ Felipe parece ter acabado{if not seen arquivos:, você pergunta "[quais](arquivo
 
 Gabriela também tem informações {if seen interromper:, ela parece indecisa sobre você, porém fala}{else: e as fornece prontamente}:
 
-* Mantemos também vários arquivos de clientes, o que facilita em certos casos, mas dificulta em outros. Temos os clientes com pedido em andamento, aqueles com pedidos atendidos, mas não pagos, os freqüentes e os outros clientes, que não se enquadram em nenhuma dessas categorias. E tem a lista dos clientes “expulsos”, pois nos deram calote e ainda tem a cara de pau de pedir outro livro.
+* Mantemos também vários arquivos de clientes, o que facilita em certos casos, mas dificulta em outros. Temos os clientes com pedido em andamento, aqueles com pedidos atendidos, mas não pagos, os freqüentes e os outros clientes, que não se enquadram em nenhuma dessas categorias. E tem a lista dos clientes “expulsos”, pois nos deram calote e ainda tem a cara de pau de pedir outro livro. Eu preciso ter isso em uma tela de um sistema, não nos meus cadernos, ou na planilha do Felipe.
+
+Gabriela aponta para o notebook, com certo desgosto, ou seria inveja?
 
 Ela parece querer falar [mais](reclamacoes){if not seen erros:, mas você pode perguntar "[Quais](erros) os seus problemas mais comuns" para Felipe}{else: {if not seen demanda:, mas você pode escutar [Felipe](demanda)}}.
 
@@ -800,7 +838,7 @@ Ela parece querer falar [mais](reclamacoes){if not seen erros:, mas você pode p
 
 Gabriela continua:
 
-* Como estamos sempre manipulando fichas, algumas vezes esquecemos de requisitar a um fornecedor um ou mais livros pedidos pelo cliente. Isso atrasa o atendimento e resulta em reclamações que não são boas para a livraria.
+* Como estamos sempre manipulando muitas fichas, algumas vezes esquecemos de requisitar a um fornecedor um ou mais livros pedidos pelo cliente. Isso atrasa o atendimento e resulta em reclamações que não são boas para a livraria.
 
 Gabriela parece ter acabado{if not seen erros:, mas você pode perguntar "[Quais](erros) os seus problemas mais comuns" para Felipe}{else: {if not seen demanda:, mas você pode escutar [Felipe](demanda)}}.
 
@@ -816,33 +854,39 @@ Gabriela diz que existe um passo a passo muito bem definido. Mas que Felipe pode
 
 Felipe diz:
 
-* Somos nós que fazemos as vendas mesmo aqui, mas às vezes precisamos de ajuda. 
+* Somos nós que fazemos as vendas mesmo aqui, mas às vezes precisamos de ajuda. Normalmente eu recebo um pedido do cliente com uma lista de livros, ou um livro só. 
 
-* Normalmente eu recebo um pedido do cliente com uma lista de livros. 
+Com certo orgulho, ele diz:
 
-* Então eu vou nos vários catálogos que possuímos, alguns de editoras, outros de distribuidoras, e procuro os livros desejados. Também procuro na internet, em lojas e leilões.
+* Então eu vou nos vários catálogos que possuímos, alguns de editoras, outros de distribuidoras, e procuro os livros desejados. Também procuro na internet, em lojas e leilões. E sebos. Vale tudo. Tenho até alguns contatos em cidades com grandes livreiros, como Nova York, Paris e Londres. Tudo está aqui nessa sala.
 
-Felipe [respira] e Gabriela olha com sinal de aprovação.
+Gabriela parece confessar um segredo:
+
+* Muitos de nossos contatos são bem antigos, eles foram criados pelo Sr. Arnaldo e a D. Bruna no início do negócio. Livreiros quase formam uma sociedade secreta.
+
+Felipe [respira], como espantado,  e Gabriela olha como quem diz: contei!
 
 [respira]:
 
 Felipe continua:
 
-* Faço uma lista com cada livro, onde podemos comprá-los, o prazo de entrega, e o preço de custo e uma estimativa de preço de frete. 
+* Faço uma lista com cada livro, onde podemos comprá-los, o prazo de entrega, e o preço de custo de cada oferta de cada livro e uma estimativa de preço de frete.  Algumas vezes tenho que esperar uma cotação que vai chegar for e-mail ou telefone, então eu paro o serviço para começar mais tarde.
 
-* Algumas vezes tenho que esperar uma cotação que vai chegar for e-mail ou telefone, então eu paro o serviço para começar mais tarde.
+Ele pausa um pouco:
 
-* Essa lista eu envio para a Bruna, que define o preço de venda de cada livro. Ela faz isso baseada na experiência dela com os clientes e as necessidades da empresa. 
-
-* Nós compramos os livros em muitas moedas, são livros caros, de arte, ou livros raros e antigos, de colecionador, e a taxa de câmbio também é importante.
+* Essa lista eu envio para a Bruna, que define o preço de venda de cada livro. Ela faz isso baseada na experiência dela com os clientes e as necessidades da empresa.  Nós compramos os livros em muitas moedas, são livros caros, de arte, ou livros raros e antigos, de colecionador, e a taxa de câmbio também é importante.
 
 Felipe para, fica pensando e Gabriela [passa a falar]:
 
 [passa a falar]:
 
-* Com os preços definidos eu faço uma estimativa do frete para o cliente e preparo uma proposta. Essa proposta é passada para o cliente de várias formas: telefone, e-mail ou, ultimamente, Whatsapp. 
+* Com os preços definidos eu faço uma estimativa do frete para o cliente e preparo uma proposta. Essa proposta é passada para o cliente por uma de várias formas: telefone, e-mail ou, ultimamente, Whatsapp. 
 
-* Geralmente dentro de 24h o cliente confirma a proposta, ou parte dela. Eu então separo os pedidos que serão feitos na sexta-feira. 
+Ela pega um fax em sua mesa:
+
+* Geralmente dentro de 24h o cliente confirma a proposta, ou parte dela. Eu então separo os pedidos que serão feitos na sexta-feira. Esse fax é um aceite, o cliente deve ter uns 90 anos. Grande colecionador.
+
+Felipe diz, explicando um pouco mais:
 
 * Quem trata dessa parte dos pedidos para os fornecedores é o próprio Sr. Américo ou seu filho. Muitas vezes ele consegue mais um desconto na compra dos livros. Algumas das vezes esse desconto, ou parte dele, é repassado para o cliente.
 
@@ -854,8 +898,7 @@ Gabriela continua:
 
 * Quando chegam todos os livros de um cliente eu começo a trabalhar de novo. 
 
-* Sou eu quem “fecha” a venda. Recalculo o preço de custo e de venda. Passo os casos de possível desconto para a Bruna, que decide na hora. Emito uma fatura, uma nota fiscal, empacoto e preparo para os entregadores (a gente usa a DHL ou a Fedex). Muitas vezes eu telefono, ou mando um e-mail, para avisar o cliente que o pedido está sendo enviado. 
-
+* Sou eu quem “fecha” a venda. Recalculo o preço de custo e de venda. Passo os casos de possível desconto para a Bruna, que decide na hora. Emito uma fatura, uma nota fiscal, se necessário um boleto, empacoto e preparo para os entregadores (a gente usa a DHL ou a Fedex). Muitas vezes eu telefono, ou mando um e-mail, para avisar o cliente que o pedido está sendo enviado. 
 
 Você pergunta:
 
@@ -866,7 +909,7 @@ Você pergunta:
 
 Gabriela não parece gostar desse assunto:
 
-* Hoje pelo boleto. É muito ruim, porque demora uns 3 dias para sabermos que foi pago, e o cliente às vezes esquece de pagar e pede uma segunda via, ou ainda temos que lembrá-los disso, o que é sempre desagradável.
+* Hoje pelo boleto no Brasil, por depósito internacional. É muito ruim, porque demora uns 3 dias para sabermos que foi pago, e o cliente às vezes esquece de pagar e pede uma segunda via, ou ainda temos que lembrá-los disso, o que é sempre desagradável. 
 
 Felipe diz:
 
@@ -874,7 +917,7 @@ Felipe diz:
 
 Gabriela revira os olhos, como se essa discussão fosse antiga:
 
-* Os clientes nem iam saber, a gente podia cobrar a taxa de todo mundo e não ia fazer diferença, mas claramente o Sr. Arnaldo não quer fazer isso.
+* Os clientes nem iam saber, a gente podia cobrar a taxa de todo mundo e não ia fazer diferença, mas claramente o Sr. Arnaldo não quer fazer isso. Além disso, também temos taxas de envio de dinheiro, só que o cliente paga do lado de lá.
 
 Felipe diz:
 

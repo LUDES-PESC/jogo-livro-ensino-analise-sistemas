@@ -39,3 +39,13 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     margin-top: 16px; margin-bottom: 16px;
 }
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-spacing: 5px;
+}
+
+th, td {
+  padding: 15px;
+}
