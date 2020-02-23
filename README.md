@@ -1,6 +1,6 @@
 # Jogo Livro de Ensino de Análise de Sistemas
 #### Projeto GitHub jogo-livro-ensino-analise-sistemas
-
+* Versão 1.2.3 - correções e falas melhoradas
 * Versão 1.2.1 - minor bugs - eliminando o tesoureiro, colocando um contador externo
 * Versão 1.2 - Todas as perguntas passam a ser 5W2H
 * Versão 1.1 - Correção de Bugs de Execução
