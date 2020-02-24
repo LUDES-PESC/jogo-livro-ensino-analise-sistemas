@@ -6,7 +6,7 @@
 @clear
 <img src="LUDESLOGO.jpg" width=300/>
 
-# Bem Vindo à Visita à Livraria Resolve (Versão 1.2.3)
+# Bem Vindo à Visita à Livraria Resolve (Versão 1.2.5)
 
 Uma produção do <a href="http://ludes.cos.ufrj.br">Laboratório de Ludologia, Engenharia e Simulação</a> do <a href="http://www.cos.ufrj.br">Programa de Engenharia de Sistemas e Computação</a> da <a href="http://coppe.ufrj.br">COPPE</a>/<a href="http://www.ufrj.br">UFRJ</a>.
 
@@ -194,7 +194,7 @@ Depois de cinco minutos, Débora pede para você seguir pela porta e ir para a �
 
 # Corredor
 
-Você está no corredor. A direita você vê: 
+Você está no corredor. Você vê várias portas com identificação: 
 * a {if seen sala de reuniões:[sala de reuniões](sala2)}{else: [[sala de reuniões]]};
 {if not seen sala de reuniões:
 * sala de TI;
