@@ -1,5 +1,9 @@
 ![Logo do LUDES](https://github.com/LUDES-PESC/jogo-livro-ensino-analise-sistemas/blob/master/LUDESLOGO.jpg)
 
+
+<img src="/jogo-livro-ensino-analise-sistemas/blob/master/LUDESLOGO.jpg" alt="Descrição da imagem" width="400">
+
+
 # Jogo Livro de Ensino de Análise de Sistemas
 
 ## A Livraria Resolve
