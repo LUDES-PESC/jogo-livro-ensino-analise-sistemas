@@ -1,10 +1,10 @@
-!(https://github.com/LUDES-PESC/jogo-livro-ensino-analise-sistemas/blob/master/LUDESLOGO.jpg)
+![Logo do LUDES](https://github.com/LUDES-PESC/jogo-livro-ensino-analise-sistemas/blob/master/LUDESLOGO.jpg)
 
 # Jogo Livro de Ensino de Análise de Sistemas
 
 ## A Livraria Resolve
 
-!(https://github.com/LUDES-PESC/jogo-livro-ensino-analise-sistemas/blob/master/Logo.png)
+![Logo da Livraria Resolve](https://github.com/LUDES-PESC/jogo-livro-ensino-analise-sistemas/blob/master/Logo.png)
 
 Esse livro-jogo simula uma visita do jogador como analista de sistemas a Livraria Resolve.
 O texto é inspirado em um exercício de análise de sistemas usado desde a década de 1990 (ou antes?) por diversos professores: Blaschek, Vera Werneck e Geraldo Xexéo.
