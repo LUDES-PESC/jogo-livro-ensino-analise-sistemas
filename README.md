@@ -20,10 +20,13 @@ Jogar em: http://jogodeanalisedesistemas.xexeo.net/
 
 1. Faça o Build
 1. Troque a linha de estilo do arquivo index.html por 
-'''
+
+```html
 <link rel="stylesheet" href="novoestilo.css"/>
-'''
+```
+
 Isso é necessário porque o Squiffy não suporta estilos diferentes
+
 1. Copie os arquivos para o diretório desejado, por exemplo, a raiz de uma web
 
 
