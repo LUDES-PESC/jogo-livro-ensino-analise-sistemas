@@ -6,7 +6,7 @@
 @clear
 <img src="LUDESLOGO.jpg" width=300/>
 
-# Bem Vindo à Visita à Livraria Resolve (Versão 1.2.5)
+# Bem Vindo à Visita à Livraria Resolve (Versão 1.3)
 
 Uma produção do <a href="http://ludes.cos.ufrj.br">Laboratório de Ludologia, Engenharia e Simulação</a> do <a href="http://www.cos.ufrj.br">Programa de Engenharia de Sistemas e Computação</a> da <a href="http://coppe.ufrj.br">COPPE</a>/<a href="http://www.ufrj.br">UFRJ</a>.
 
@@ -115,7 +115,10 @@ O que você acha de [tocar a campainha](Você toca a campainha)?
 
 [Você toca a campainha]:
 
-A campainha toca uma música conhecida, mas você não sabe qual. Depois de uns quinze segundos uma moça de uns 25 anos, com um sorriso simpático e uniforme profissional, abre a porta e pergunta:
+<img src="debora.png" width=200/>
+
+A campainha toca uma música conhecida, mas você não sabe qual. 
+Depois de uns quinze segundos uma moça de uns 25 anos, com um sorriso simpático e uniforme profissional, abre a porta e pergunta:
 
 * Em que posso ajudar?
 
@@ -188,7 +191,7 @@ Você se dirige a porta menor, mas Débora se coloca a sua frente e diz:
 
 [Você senta no sofá]:
 
-Depois de cinco minutos, Débora pede para você seguir pela porta e ir para a última porta do [[corredor]], marcada como sala de reuniões. Quando estiver pronto para sair, volte a recepção, é o único caminho.
+Depois de cinco minutos, Débora pede para você seguir pela porta menor, que leva a um [[corredor]], e ir para a última porta desse [[corredor]], que tem uma placa onde diz "sala de reuniões". Ela ainda diz: "Quando estiver pronto para sair, volte a recepção, é o único caminho".
 
 [[corredor]]:
 
@@ -247,13 +250,13 @@ Eles estão novamente no telefone. Não dá para interromper de novo.
 Volte para o [[corredor]].
 
 
-
-
 [[sala de reuniões]]:
 @inc salas
 # Sala de Reuniões
 
 * Bem vindo, você chegou! Estava esperando ansioso. Serão grandes mudanças.
+
+<img src="arnaldo.png" width=200/>
 
 Quem fala é um senhor calvo, de uns 70 anos, óculos redondos grossos, de terno cinza e gravata clara. Quase o estereótipo de um livreiro. 
 
@@ -284,7 +287,7 @@ Você acha que está na hora de começar a fazer [[perguntas]](pergunta){if not 
 Você diz:
 - Olá, eu sou o analista responsável pelo seu novo sistema. É um prazer está aqui. 
 
-Você trocam trocam um aperto de mãos.
+Você trocam um aperto de mãos.
 
 {if seen senta: Você pensa novamente em começar as [[perguntas]](pergunta).}
 
@@ -423,7 +426,7 @@ O Sr. Arnaldo parece pensar e fala:
   5. O gerente de TI, programador e faz-tudo de informática, Carlos Castelo.
 
 
-Você vê que ainda dá tempo de outra pergunta:
+Você vê que ainda há tempo de outra pergunta:
 
 1. [Por que](problema) o senhor chamou a minha empresa?
 1. [O que](empresa) sua empresa faz?
@@ -450,6 +453,9 @@ Você se despede educadamente e segue para o [[corredor]]?
 # Sala de TI
 
     @set humor = 0
+
+<img src="castelo.png" width=200/>
+
 
 Você chega na Sala de TI e vê um homem agitado tentando colocar um computador em um rack, mas meio sem jeito. Ele pede sua ajuda com um olhar. Com certeza é o **Carlos Castelo**.
 
@@ -604,6 +610,9 @@ Melhor voltar para o [[corredor]].
 @inc salas
 # Sala da Gerência
 
+<img src="gerencia.png" width=400>
+
+
 Nessa sala você ve duas mesas. Lá estão um homem e um mulher, com certeza são **Armando Américo** e **Bruna Berílio**. Bruna já é uma senhora de certa idade, como o dono da empresa, mas Armando Américo é jovem e lembra o pai, bem mais magro e em forma.
 
 Eles olham para você com um olhar inquisitivo e você se apresenta.
@@ -620,17 +629,15 @@ Depois de conversar algumas amenidades, fica claro que você pode fazer pergunta
 [@last]:
 A conversa está interessante, você deve [[continuar]](gerencia 2). Um bom analista sempre percebe que pode obter mais informações. 
 
-
 [antigas]:
 
 Bruna diz:
 
-* Fazemos as coisas do mesmo jeito aqui há muitos anos, mas com a carga de trabalho aumentando, concordo que um sistema de vendas pode ajudar, mas não acho que precisamos mudar tanto.
+* Fazemos as coisas do mesmo jeito aqui há muitos anos. Com a carga de trabalho aumentando, concordo que um sistema de vendas pode ajudar, mas não acho que precisamos mudar tanto.
 
 E Armando comenta:
 
 * A livraria funciona da mesma forma há muitos anos, com tudo feito de forma manual. Porém, com a possibilidade cada vez maior de trabalhar com livros do mundo todo, nosso trabalho aumentou muito. Meu pai é “das antigas”, mas eu o convenci a começar a mudar as coisas, para eu poder tocar melhor o negócio com a Bruna quando papai se aposentar. 
-
 Bruna parece ter problemas com essa opinião:
 
 * Melhor não mexer muito, estamos crescendo e em time que está ganhando não se mexe. É só resovler uns probleminhas aqui e ali.
@@ -638,17 +645,16 @@ Bruna parece ter problemas com essa opinião:
 Armando chama a atenção para si:
 
 * O importante é que o sistema atenda bem a vontade do cliente: encomendar um livro raro, que não é encontrado com facilidade, e que cabe a gente procurar e dar um preço. 
-
 Você pode perguntar:
 
 * [Quais](sistemas) outros sistemas vocês estão fazendo?
-
 
 [sistemas]:
 
 Bruna olha para umas anotações que parece ter feito antes e fala:
 
-* O importante é que se leve em conta que estamos comprando outros sistemas de informação não específicos para a Livraria ABC no mercado. Por exemplo, já temos um sistema de contas a pagar e a receber sendo implantado que deverá receber as informações do sistema que vocês vão fazer. Isso é realmente melhor que meus cadernos, pois não preciso fazer mais as contas.
+* O importante é que se leve em conta que estamos comprando outros sistemas de informação não específicos para a Livraria ABC no mercado. Por exemplo, já temos um sistema de contas a pagar e a receber sendo implantado que deverá receber as informações do sistema que vocês vão fazer. 
+Isso é realmente melhor que meus cadernos, pois não preciso fazer mais as contas.
 
 Ela olha para [Armando](necessidades).
 
@@ -656,7 +662,8 @@ Ela olha para [Armando](necessidades).
 
 Armando pensa e diz:
 
-* O que eu mais preciso é melhorar o nosso relacionamento com o cliente. Para isso, a informação que vem do sistema de vendas é essencial. Uma coisa importante, por exemplo, é saber que clientes freqüentes não compram mais na freqüência que compravam. Sabendo isso eu posso recuperar um cliente que deixou de nos procurar.
+* O que eu mais preciso é melhorar o nosso relacionamento com o cliente. Para isso, a informação que vem do sistema de vendas é essencial. 
+Uma coisa importante, por exemplo, é saber que clientes freqüentes não compram mais na freqüência que compravam. Sabendo isso eu posso recuperar um cliente que deixou de nos procurar.
 
 Você pergunta se eles tem [alguma idéia](oportunidade 1),
 
@@ -690,7 +697,7 @@ Bruna respira, pensa e se lembra de algo:
 
 Armando faz um pequeno sinal para você, parece que ele não concorda muito:
 
-* Para isso que serve um site de vendas Bruna! Catálogos só dão trabalho de fazer, imprimir e enviar.
+* Para isso que serve um site de vendas, Bruna! Catálogos só dão trabalho de fazer, imprimir e enviar.
 
 Bruna, contrariada, lembra:
 
@@ -712,7 +719,7 @@ Você pensa um pouco e vê que tem mais perguntas:
 
 Bruna diz:
 
-* Hoje somos 7. Todo mundo tem seu cargo, mas todo mundo ajuda todo mundo. A Débora Dina e recepcionista e secretária, o Carlos faz tudo de TI sozinho, os vendedores falam com clientes e fornecedores, e nós também vendemos, fazemos tudo. Papai já está velho, mas tem cliente importantes que compram livros raros caríssimos e também trabalha muito.
+* Hoje somos sete. Todo mundo tem seu cargo, mas todo mundo ajuda todo mundo. A Débora Dina e recepcionista e secretária, o Carlos faz tudo de TI sozinho, os vendedores falam com clientes e fornecedores, e nós também vendemos, fazemos tudo. Papai já está velho, mas tem cliente importantes que compram livros raros caríssimos e também trabalha muito.
 
 Armando também parece querer falar algo e você pede que ele [participe](mais pessoas).
 
@@ -724,7 +731,7 @@ Armando diz:
 
 Bruna olha preocupada.
 
-* Cada contratação é uma dificuldade. Todas pessoas aqui falam várias línguas e sabem muito de literatura. O Felipe tem um mestrado.
+* Cada contratação é uma dificuldade. Todas as pessoas aqui falam várias línguas e sabem muito de literatura. O Felipe tem um mestrado.
 
 Você pode perguntar:
 * [Quais](gerencia) informações  gerenciais vocês precisam?
@@ -766,11 +773,13 @@ Você se despede, e vai para o [[corredor]].
 
 # Sala dos vendedores
 
-Você encontra um casal trabalhando no telefone. Certamente são Felipe Franciscano e Gabriela Gambra.
+<img src="vendedores.png" width=400>
 
-Ambos estão parecendo bastante ocupados. Felipe está de terno, como o patrão. Gabriela também usa uma roupa um pouco mais formal. 
+Você encontra duas pessoas trabalhando no telefone, cada um em sua mesa. Certamente são Felipe Franciscano e Gabriela Gambra.
 
-Você espera na porta [[pacientemente]] ou tenta [interromper]?
+Ambos estão parecendo bastante ocupados. Felipe está de terno, como o patrão. Gabriela também usa uma roupa mais formal. 
+
+Você espera na porta [[pacientemente]] na porta ou tenta [interromper]?
 
 [interromper]:
 
@@ -801,7 +810,7 @@ Eles ficam muito satisfeitos e começam a falar ao mesmo tempo. Parece que estã
 Você sente que é melhor fazer com que só um fale:
 
 * [Quais](erros) os seus problemas mais comuns? - pergunta para Felipe 
-* [Quais](arquivos) as informações que vocês tem? - pergunta para Gabriela 
+* [Quais](arquivos) as informações que vocês têm? - pergunta para Gabriela 
 
 
 
@@ -818,7 +827,7 @@ Ele parece querer falar [mais](demanda){if not seen arquivos:, mas você pode pe
 
 Felipe aproveita para continuar:
 
-* Claramente, a primeira coisa que qualquer sistema deve fazer é suportar o nosso funcionamento diário. Estou falando da operação básica de atendimento aos clientes, não da contabilidade ou outras coisas do gênero, pois para essas vou comprar sistemas prontos .
+* Claramente, a primeira coisa que qualquer sistema deve fazer é suportar o nosso funcionamento diário. Estou falando da operação básica de atendimento aos clientes, não da contabilidade ou outras coisas do gênero, pois para essas vamos ter sistemas prontos, já sabemos disso.
 
 Felipe parece ter acabado{if not seen arquivos:, você pergunta "[quais](arquivos) as informações existentes" para Gabriela}{else: {if not seen reclamacoes:, você se vira para [Gabriela](reclamacoes)}}.
 
@@ -862,7 +871,7 @@ Com certo orgulho, ele diz:
 
 Gabriela parece confessar um segredo:
 
-* Muitos de nossos contatos são bem antigos, eles foram criados pelo Sr. Arnaldo e a D. Bruna no início do negócio. Livreiros quase formam uma sociedade secreta.
+* Muitos de nossos contatos são bem antigos, eles foram criados pelo Sr. Arnaldo e a D. Bruna no início do negócio. Os livreiros quase formam uma sociedade secreta.
 
 Felipe [respira], como espantado,  e Gabriela olha como quem diz: contei!
 
@@ -882,7 +891,7 @@ Felipe para, fica pensando e Gabriela [passa a falar]:
 
 * Com os preços definidos eu faço uma estimativa do frete para o cliente e preparo uma proposta. Essa proposta é passada para o cliente por uma de várias formas: telefone, e-mail ou, ultimamente, Whatsapp. 
 
-Ela pega um fax em sua mesa:
+Ela pega e mostra um fax que está em sua mesa:
 
 * Geralmente dentro de 24h o cliente confirma a proposta, ou parte dela. Eu então separo os pedidos que serão feitos na sexta-feira. Esse fax é um aceite, o cliente deve ter uns 90 anos. Grande colecionador.
 
@@ -909,19 +918,19 @@ Você pergunta:
 
 Gabriela não parece gostar desse assunto:
 
-* Hoje pelo boleto no Brasil, por depósito internacional. É muito ruim, porque demora uns 3 dias para sabermos que foi pago, e o cliente às vezes esquece de pagar e pede uma segunda via, ou ainda temos que lembrá-los disso, o que é sempre desagradável. 
+* Hoje pelo boleto, no Brasil, ou por depósito internacional. É muito ruim, porque demora uns 3 dias para sabermos que foi pago, e o cliente às vezes esquece de pagar e pede uma segunda via, ou ainda temos que lembrá-los disso, o que é sempre desagradável. Sem falar que, apesar dos clientes antigos estarem acostumados, os novos sempre reclamam. Eles querem usar cartão de crédito, Pix no Brasil ou PayPal no exterior.
 
 Felipe diz:
 
-* A gente também pensou em usar cartão de crédito ou débito, mas não gostamos das taxas. Teríamos que somá-la ao nosso preço e os clientes também não vão gostar. 
+* A gente também pensou em usar cartão de crédito ou débito, Pix e outros serviços de pagamento, só não temos como fazer hoje. No passado a gente chegou a passar o cartão de crédito "na mão", mas hoje não é mais possível.  
 
 Gabriela revira os olhos, como se essa discussão fosse antiga:
 
-* Os clientes nem iam saber, a gente podia cobrar a taxa de todo mundo e não ia fazer diferença, mas claramente o Sr. Arnaldo não quer fazer isso. Além disso, também temos taxas de envio de dinheiro, só que o cliente paga do lado de lá.
+* A gente está muito atrasado. A desculpa eram as taxas, mas quem paga por transferência internacional paga as taxas e considera um custo adicional, sempre reclamam. É falta de sistema mesmo. Temos que resolver o pagamento urgente.
 
 Felipe diz:
 
-* Nós temos que fazer o cliente pagar antes de nós pagarmos o fornecedor. Em todo caso, hoje a gente só envia o livro após o cliente pagar.
+* Lembro que nós temos que fazer o cliente pagar antes de nós pagarmos o fornecedor. A gente só envia o livro após o cliente pagar. Mas com cartão de crédito sempre a o risco de um caloteiro cancelar. Por isso preferimos pagamentos diretos, como o boleto e o Pix.
 
 [@last]:
 <hr>
